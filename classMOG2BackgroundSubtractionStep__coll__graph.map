@@ -1,0 +1,4 @@
+<map id="MOG2BackgroundSubtractionStep" name="MOG2BackgroundSubtractionStep">
+<area shape="rect" id="node1" title="Represents a MOG2 Background Subtraction preprocessing step. Implements a MOG2 Background Subtraction..." alt="" coords="5,80,248,107"/>
+<area shape="rect" id="node2" href="$classIPreprocessStep.html" title="Interface for image preprocessing steps." alt="" coords="63,5,190,32"/>
+</map>

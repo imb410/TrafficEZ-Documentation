@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['gaussianblurstep_341',['GaussianBlurStep',['../classGaussianBlurStep.html#a744748cf7fd34e1ceac28f5c5f5dd69d',1,'GaussianBlurStep']]],
+  ['getcurrentparameters_342',['getCurrentParameters',['../classDilationStep.html#aa5810db3e50dfbcba173863fe8b8fe0f',1,'DilationStep::getCurrentParameters()'],['../classErosionStep.html#a7e0c054584d38eb36bc688b2a35f43cb',1,'ErosionStep::getCurrentParameters()'],['../classGaussianBlurStep.html#a00ad57be03f30701b194d729486735df',1,'GaussianBlurStep::getCurrentParameters()'],['../classGrayscaleStep.html#a99fb8fc58065956d200d4d4306a52c0b',1,'GrayscaleStep::getCurrentParameters()'],['../classIPreprocessStep.html#a9111e8988db8c121b42313e2e9e019ed',1,'IPreprocessStep::getCurrentParameters()'],['../classMOG2BackgroundSubtractionStep.html#a48cb3bae40ec8feeaed423570091cb14',1,'MOG2BackgroundSubtractionStep::getCurrentParameters()'],['../classThresholdStep.html#a3dc9160b3b9eb4988e25da2e15265a00',1,'ThresholdStep::getCurrentParameters()']]],
+  ['getenddetectionline_343',['getEndDetectionLine',['../classHullDetector.html#afc0d4c87f384a141bb2e924541dcefd0',1,'HullDetector']]],
+  ['getframessinceseen_344',['getFramesSinceSeen',['../classHullTrackable.html#a98b9ccfa6b2830dc6dce13094b3590e6',1,'HullTrackable']]],
+  ['gethullarea_345',['getHullArea',['../classHullTrackable.html#ada64c606997e95d2619167e5065cc29b',1,'HullTrackable']]],
+  ['gethullpoints_346',['getHullPoints',['../classHullTrackable.html#a5c1c81b23f2527227634d9da5737c1b5',1,'HullTrackable']]],
+  ['gethulls_347',['getHulls',['../classHullDetector.html#ad6aa6156313874816cb079119f5a4e33',1,'HullDetector']]],
+  ['getlanelength_348',['getLaneLength',['../classVideoStreamer.html#a3baa75bbf63e4cf22310f74437ed76f1',1,'VideoStreamer']]],
+  ['getlanewidth_349',['getLaneWidth',['../classVideoStreamer.html#a9ab0d1cc271863ca281c7460fd449c33',1,'VideoStreamer']]],
+  ['getnextframe_350',['getNextFrame',['../classVideoStreamer.html#a331dff1359e3ec677ee9a680ffa2192f',1,'VideoStreamer']]],
+  ['getnumberofsteps_351',['getNumberOfSteps',['../classPipelineBuilder.html#a762ef990a20277d6e9641d2c9a55718d',1,'PipelineBuilder']]],
+  ['getstepcurrentparameters_352',['getStepCurrentParameters',['../classPipelineBuilder.html#a98bae9eae91e18bd08944402c5c23614',1,'PipelineBuilder']]],
+  ['getsteptype_353',['getStepType',['../classPipelineBuilder.html#aa5826be9472764be039464b6ffb0fa37',1,'PipelineBuilder']]],
+  ['gettotalhullarea_354',['getTotalHullArea',['../classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65',1,'HullTracker']]],
+  ['gettrackableid_355',['getTrackableId',['../classHullTrackable.html#a0f457f7b0270a516dac223e20c4d7a59',1,'HullTrackable']]],
+  ['gettrackedhulls_356',['getTrackedHulls',['../classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf',1,'HullTracker']]],
+  ['gettype_357',['getType',['../classDilationStep.html#a8deacb6695709ede5213acf0699ef3f5',1,'DilationStep::getType()'],['../classErosionStep.html#a207a4466df401fef2f277653643fbf66',1,'ErosionStep::getType()'],['../classGaussianBlurStep.html#ada5979628f895654bc43704ca6482a44',1,'GaussianBlurStep::getType()'],['../classGrayscaleStep.html#a6cf238d2172bf933a1d129278ea0dd82',1,'GrayscaleStep::getType()'],['../classIPreprocessStep.html#a62a3855986b5e7f48a36d260ecbc2cee',1,'IPreprocessStep::getType()'],['../classMOG2BackgroundSubtractionStep.html#ad944d7643168838da030bb3d6086cfc5',1,'MOG2BackgroundSubtractionStep::getType()'],['../classThresholdStep.html#a1b705fe2cf07c0449e7673dfdb5b6723',1,'ThresholdStep::getType()']]]
+];

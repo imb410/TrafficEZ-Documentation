@@ -1,0 +1,4 @@
+<map id="CalibrateVideoStreamer" name="CalibrateVideoStreamer">
+<area shape="rect" id="node1" title="Child class of VideoStreamer used for ROI Calibration with mouse clicks." alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node2" href="$classVideoStreamer.html" title="Class for reading/getting frames from a stream, then transforming that to the ROI based on the chosen..." alt="" coords="35,5,154,32"/>
+</map>

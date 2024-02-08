@@ -1,0 +1,5 @@
+<map id="TransformPerspective" name="TransformPerspective">
+<area shape="rect" id="node1" title="Interface for transforming the perspective defined by the four ROI points." alt="" coords="63,5,226,32"/>
+<area shape="rect" id="node2" href="$classTrimPerspective.html" title="Trim strategy of TransformPerspective." alt="" coords="5,80,132,107"/>
+<area shape="rect" id="node3" href="$classWarpPerspective.html" title="Warp strategy of TransformPerspective." alt="" coords="157,80,287,107"/>
+</map>

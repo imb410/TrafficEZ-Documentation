@@ -1,0 +1,4 @@
+<map id="ErosionStep" name="ErosionStep">
+<area shape="rect" id="node1" title="Represents an erosion preprocessing step. Implements an erosion operation as part of the image prepro..." alt="" coords="19,80,118,107"/>
+<area shape="rect" id="node2" href="$classIPreprocessStep.html" title="Interface for image preprocessing steps." alt="" coords="5,5,132,32"/>
+</map>
