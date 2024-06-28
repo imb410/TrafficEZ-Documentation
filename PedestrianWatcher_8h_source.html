@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -74,22 +74,38 @@ $(function() {
 <a href="PedestrianWatcher_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PEDESTRIAN_WATCHER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PEDESTRIAN_WATCHER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Watcher_8h.html">Watcher.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classPedestrianWatcher.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPedestrianWatcher.html">PedestrianWatcher</a> : <span class="keyword">public</span> <a class="code" href="classWatcher.html">Watcher</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianWatcher.html#a26c1ce11c75fa07933f2ff6988444e8a">spawn</a>(<a class="code" href="Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88">RenderMode</a> mode,</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;               <span class="keyword">const</span> std::string&amp; streamName,</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;               <span class="keyword">const</span> std::string&amp; calibName) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;};</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Gui_8h.html">Gui.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Headless_8h.html">Headless.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Watcher_8h.html">Watcher.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classPedestrianWatcher.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPedestrianWatcher.html">PedestrianWatcher</a> : <span class="keyword">public</span> <a class="code" href="classWatcher.html">Watcher</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianWatcher.html#ac9729c279a33f6af63c907ba72fad530">spawn</a>(<a class="code" href="Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88">RenderMode</a> mode,</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;               <span class="keyword">const</span> std::string&amp; streamName,</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;               <span class="keyword">const</span> std::string&amp; calibName) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianWatcher.html#ad6e302908e8e7141954425f7995fa041">processFrame</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPedestrianWatcher.html#a972081e979a7920dbedc9d9cfdc7ec2f">getInstanceCount</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="classGui.html">Gui</a>* gui;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="classHeadless.html">Headless</a>* headless;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88">RenderMode</a> currentMode;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aGui_8h_html"><div class="ttname"><a href="Gui_8h.html">Gui.h</a></div></div>
+<div class="ttc" id="aHeadless_8h_html"><div class="ttname"><a href="Headless_8h.html">Headless.h</a></div></div>
 <div class="ttc" id="aWatcher_8h_html"><div class="ttname"><a href="Watcher_8h.html">Watcher.h</a></div></div>
-<div class="ttc" id="aWatcher_8h_html_ac9e546db27bb4f76f47d7e25f24abb88"><div class="ttname"><a href="Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88">RenderMode</a></div><div class="ttdeci">RenderMode</div><div class="ttdef"><b>Definition:</b> Watcher.h:7</div></div>
-<div class="ttc" id="aclassPedestrianWatcher_html"><div class="ttname"><a href="classPedestrianWatcher.html">PedestrianWatcher</a></div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.h:7</div></div>
-<div class="ttc" id="aclassPedestrianWatcher_html_a26c1ce11c75fa07933f2ff6988444e8a"><div class="ttname"><a href="classPedestrianWatcher.html#a26c1ce11c75fa07933f2ff6988444e8a">PedestrianWatcher::spawn</a></div><div class="ttdeci">void spawn(RenderMode mode, const std::string &amp;streamName, const std::string &amp;calibName) const override</div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.cpp:5</div></div>
-<div class="ttc" id="aclassWatcher_html"><div class="ttname"><a href="classWatcher.html">Watcher</a></div><div class="ttdef"><b>Definition:</b> Watcher.h:13</div></div>
+<div class="ttc" id="aWatcher_8h_html_ac9e546db27bb4f76f47d7e25f24abb88"><div class="ttname"><a href="Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88">RenderMode</a></div><div class="ttdeci">RenderMode</div><div class="ttdef"><b>Definition:</b> Watcher.h:9</div></div>
+<div class="ttc" id="aclassGui_html"><div class="ttname"><a href="classGui.html">Gui</a></div><div class="ttdef"><b>Definition:</b> Gui.h:9</div></div>
+<div class="ttc" id="aclassHeadless_html"><div class="ttname"><a href="classHeadless.html">Headless</a></div><div class="ttdef"><b>Definition:</b> Headless.h:9</div></div>
+<div class="ttc" id="aclassPedestrianWatcher_html"><div class="ttname"><a href="classPedestrianWatcher.html">PedestrianWatcher</a></div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.h:9</div></div>
+<div class="ttc" id="aclassPedestrianWatcher_html_a972081e979a7920dbedc9d9cfdc7ec2f"><div class="ttname"><a href="classPedestrianWatcher.html#a972081e979a7920dbedc9d9cfdc7ec2f">PedestrianWatcher::getInstanceCount</a></div><div class="ttdeci">int getInstanceCount() override</div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.cpp:35</div></div>
+<div class="ttc" id="aclassPedestrianWatcher_html_ac9729c279a33f6af63c907ba72fad530"><div class="ttname"><a href="classPedestrianWatcher.html#ac9729c279a33f6af63c907ba72fad530">PedestrianWatcher::spawn</a></div><div class="ttdeci">void spawn(RenderMode mode, const std::string &amp;streamName, const std::string &amp;calibName) override</div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.cpp:5</div></div>
+<div class="ttc" id="aclassPedestrianWatcher_html_ad6e302908e8e7141954425f7995fa041"><div class="ttname"><a href="classPedestrianWatcher.html#ad6e302908e8e7141954425f7995fa041">PedestrianWatcher::processFrame</a></div><div class="ttdeci">void processFrame() override</div><div class="ttdef"><b>Definition:</b> PedestrianWatcher.cpp:23</div></div>
+<div class="ttc" id="aclassWatcher_html"><div class="ttname"><a href="classWatcher.html">Watcher</a></div><div class="ttdef"><b>Definition:</b> Watcher.h:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

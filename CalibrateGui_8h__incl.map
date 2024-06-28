@@ -1,5 +1,7 @@
 <map id="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateGui.h" name="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateGui.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,248,61"/>
-<area shape="rect" id="node2" href="$Gui_8h.html" title=" " alt="" coords="99,109,155,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="97,184,156,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="55,5,297,61"/>
+<area shape="rect" id="node2" href="$Gui_8h.html" title=" " alt="" coords="148,109,204,136"/>
+<area shape="rect" id="node3" href="$TrafficState_8h.html" title=" " alt="" coords="5,184,112,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="136,184,216,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="240,184,299,211"/>
 </map>

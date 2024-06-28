@@ -1,0 +1,17 @@
+<map id="src/MultiprocessTraffic/ChildProcess.h" name="src/MultiprocessTraffic/ChildProcess.h">
+<area shape="rect" id="node1" title=" " alt="" coords="287,5,453,47"/>
+<area shape="rect" id="node2" href="$PhaseMessageType_8h.html" title=" " alt="" coords="87,95,248,121"/>
+<area shape="rect" id="node5" href="$Pipe_8h.html" title=" " alt="" coords="465,95,528,121"/>
+<area shape="rect" id="node6" href="$WatcherSpawner_8h.html" title=" " alt="" coords="299,95,441,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="287,393,346,420"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,129,196"/>
+<area shape="rect" id="node7" href="$WatcherFactory_8h.html" title=" " alt="" coords="359,169,491,196"/>
+<area shape="rect" id="node8" href="$CalibrateWatcher_8h.html" title=" " alt="" coords="205,244,351,271"/>
+<area shape="rect" id="node14" href="$PedestrianWatcher_8h.html" title=" " alt="" coords="375,244,530,271"/>
+<area shape="rect" id="node15" href="$VehicleWatcher_8h.html" title=" " alt="" coords="554,244,687,271"/>
+<area shape="rect" id="node9" href="$Gui_8h.html" title=" " alt="" coords="287,319,343,345"/>
+<area shape="rect" id="node12" href="$Headless_8h.html" title=" " alt="" coords="368,319,463,345"/>
+<area shape="rect" id="node13" href="$Watcher_8h.html" title=" " alt="" coords="487,319,573,345"/>
+<area shape="rect" id="node10" href="$TrafficState_8h.html" title=" " alt="" coords="475,393,582,420"/>
+<area shape="rect" id="node11" title=" " alt="" coords="371,393,451,420"/>
+</map>

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -70,8 +70,13 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="classVehicleGui.html">VehicleGui</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classVehicleGui.html#a85ff244ec6a3cf66b6090c9d083db227">display</a>(const std::string &amp;streamName, const std::string &amp;calibName) const override</td><td class="entry"><a class="el" href="classVehicleGui.html">VehicleGui</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classGui.html#a183097cbd93f0870c5112ae4e26ffdba">~Gui</a>()</td><td class="entry"><a class="el" href="classGui.html">Gui</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui.html#a4ef2f8d2afb2160b81f533f2e16f6977">currentTrafficState</a></td><td class="entry"><a class="el" href="classGui.html">Gui</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classVehicleGui.html#a9089be336973bd1b5b6ce68d29cab31d">display</a>() override</td><td class="entry"><a class="el" href="classVehicleGui.html">VehicleGui</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classVehicleGui.html#a01b061d0a178c7da6f6ac446ba4b478a">getInstanceCount</a>() override</td><td class="entry"><a class="el" href="classVehicleGui.html">VehicleGui</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classVehicleGui.html#ad44da23dd3beecc53caf9c4b4640b28c">getTrafficDensity</a>() override</td><td class="entry"><a class="el" href="classVehicleGui.html">VehicleGui</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classVehicleGui.html#a2949a0a9229434b5c69e7d84090876bc">initialize</a>(const std::string &amp;streamName, const std::string &amp;calibName) override</td><td class="entry"><a class="el" href="classVehicleGui.html">VehicleGui</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classGui.html#a73748b46d6e2a0836fb865179f4c4d35">setCurrentTrafficState</a>(TrafficState state)</td><td class="entry"><a class="el" href="classGui.html">Gui</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classGui.html#a183097cbd93f0870c5112ae4e26ffdba">~Gui</a>()</td><td class="entry"><a class="el" href="classGui.html">Gui</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

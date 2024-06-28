@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -91,50 +91,54 @@ $(function() {
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">const</span> std::unordered_map&lt;int, std::shared_ptr&lt;HullTrackable&gt;&gt;&amp;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf">getTrackedHulls</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">getTotalHullArea</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classHullTracker.html#a79e20418074c40ae384cbd7a4bd84f2d">calculateAllAveragedSpeed</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">drawTrackedHulls</a>(cv::Mat&amp; frame) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHullTracker.html#ad8131bc58c8297a8d9add179303153f6">drawLanesInfo</a>(cv::Mat&amp; frame, <span class="keywordtype">int</span> laneLength, <span class="keywordtype">int</span> laneWidth) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> maxDiffDistance;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> hullAreaThreshold;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> boundaryCushionPixels;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> maxFramesNotSeen;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> maxId;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> currentId;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> hullCount;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">float</span> totalHullArea;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">float</span> totalAverageSpeed;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">mutable</span> <span class="keywordtype">int</span> boundaryLineY;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    std::unordered_map&lt;int, std::shared_ptr&lt;HullTrackable&gt;&gt; trackedHulls;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> matchAndUpdateTrackables(</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::vector&lt;cv::Point&gt;&gt;&amp; newHulls,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        std::vector&lt;bool&gt;&amp; matched);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> createAndAddNewTrackables(</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::vector&lt;cv::Point&gt;&gt;&amp; newHulls,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keyword">const</span> std::vector&lt;bool&gt;&amp; matched);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> removeStaleTrackables();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> processCrossedTrackables();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classHullTracker.html#aaa327bbc6e7c10b95c231d11365204ef">getHullCount</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">getTotalHullArea</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classHullTracker.html#a29095f64500ad2bd03d0a8868d5a947e">getAveragedSpeed</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHullTracker.html#a0b6831d2ba193ff9db8b57741e0216b6">resetTrackerVariables</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">drawTrackedHulls</a>(cv::Mat&amp; frame) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classHullTracker.html#ad8131bc58c8297a8d9add179303153f6">drawLanesInfo</a>(cv::Mat&amp; frame, <span class="keywordtype">int</span> laneLength, <span class="keywordtype">int</span> laneWidth) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> maxDiffDistance;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">float</span> hullAreaThreshold;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> boundaryCushionPixels;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> maxFramesNotSeen;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> maxId;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> currentId;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> hullCount;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">float</span> totalHullArea;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">float</span> totalAverageSpeed;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">mutable</span> <span class="keywordtype">int</span> boundaryLineY;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    std::unordered_map&lt;int, std::shared_ptr&lt;HullTrackable&gt;&gt; trackedHulls;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> matchAndUpdateTrackables(</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::vector&lt;cv::Point&gt;&gt;&amp; newHulls,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        std::vector&lt;bool&gt;&amp; matched);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> createAndAddNewTrackables(</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::vector&lt;cv::Point&gt;&gt;&amp; newHulls,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keyword">const</span> std::vector&lt;bool&gt;&amp; matched);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">void</span> removeStaleTrackables();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> processCrossedTrackables();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aHullTrackable_8h_html"><div class="ttname"><a href="HullTrackable_8h.html">HullTrackable.h</a></div></div>
 <div class="ttc" id="aclassHullTracker_html"><div class="ttname"><a href="classHullTracker.html">HullTracker</a></div><div class="ttdoc">Class for tracking convex hulls. Optionally, you can specify in the constructor the following:</div><div class="ttdef"><b>Definition:</b> HullTracker.h:16</div></div>
-<div class="ttc" id="aclassHullTracker_html_a79e20418074c40ae384cbd7a4bd84f2d"><div class="ttname"><a href="classHullTracker.html#a79e20418074c40ae384cbd7a4bd84f2d">HullTracker::calculateAllAveragedSpeed</a></div><div class="ttdeci">float calculateAllAveragedSpeed() const</div><div class="ttdoc">Calculates the averaged speed of all exited tracked hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:74</div></div>
+<div class="ttc" id="aclassHullTracker_html_a0b6831d2ba193ff9db8b57741e0216b6"><div class="ttname"><a href="classHullTracker.html#a0b6831d2ba193ff9db8b57741e0216b6">HullTracker::resetTrackerVariables</a></div><div class="ttdeci">void resetTrackerVariables()</div><div class="ttdoc">Reset the variables for calculating the values of getTotalHullArea and calculateAllAveragedSpeed.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:92</div></div>
+<div class="ttc" id="aclassHullTracker_html_a29095f64500ad2bd03d0a8868d5a947e"><div class="ttname"><a href="classHullTracker.html#a29095f64500ad2bd03d0a8868d5a947e">HullTracker::getAveragedSpeed</a></div><div class="ttdeci">float getAveragedSpeed() const</div><div class="ttdoc">Calculates the averaged speed of all exited tracked hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:83</div></div>
 <div class="ttc" id="aclassHullTracker_html_aa8eefe50710a79fec49e191e43ff62a4"><div class="ttname"><a href="classHullTracker.html#aa8eefe50710a79fec49e191e43ff62a4">HullTracker::HullTracker</a></div><div class="ttdeci">HullTracker(double maxDiffDistance=100.0, float hullAreaThreshold=0.5, int boundaryCushionPixels=20, int maxFramesNotSeen=3, int maxId=1000)</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:7</div></div>
+<div class="ttc" id="aclassHullTracker_html_aaa327bbc6e7c10b95c231d11365204ef"><div class="ttname"><a href="classHullTracker.html#aaa327bbc6e7c10b95c231d11365204ef">HullTracker::getHullCount</a></div><div class="ttdeci">int getHullCount() const</div><div class="ttdoc">Gets the current hull count.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:65</div></div>
 <div class="ttc" id="aclassHullTracker_html_ac766bc1e8819e062085125791babc68c"><div class="ttname"><a href="classHullTracker.html#ac766bc1e8819e062085125791babc68c">HullTracker::initExitBoundaryLine</a></div><div class="ttdeci">void initExitBoundaryLine(int lineY) const</div><div class="ttdoc">Initializes the exit boundary line for hull tracking.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:30</div></div>
 <div class="ttc" id="aclassHullTracker_html_acd1f2fc225f8746f586c16d4b9cdebdf"><div class="ttname"><a href="classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf">HullTracker::getTrackedHulls</a></div><div class="ttdeci">const std::unordered_map&lt; int, std::shared_ptr&lt; HullTrackable &gt; &gt; &amp; getTrackedHulls() const</div><div class="ttdoc">Retrieves the currently tracked hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:56</div></div>
-<div class="ttc" id="aclassHullTracker_html_ad8131bc58c8297a8d9add179303153f6"><div class="ttname"><a href="classHullTracker.html#ad8131bc58c8297a8d9add179303153f6">HullTracker::drawLanesInfo</a></div><div class="ttdeci">void drawLanesInfo(cv::Mat &amp;frame, int laneLength, int laneWidth) const</div><div class="ttdoc">Draws information about the lanes (only for debugging).</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:248</div></div>
+<div class="ttc" id="aclassHullTracker_html_ad8131bc58c8297a8d9add179303153f6"><div class="ttname"><a href="classHullTracker.html#ad8131bc58c8297a8d9add179303153f6">HullTracker::drawLanesInfo</a></div><div class="ttdeci">void drawLanesInfo(cv::Mat &amp;frame, int laneLength, int laneWidth) const</div><div class="ttdoc">Draws information about the lanes (only for debugging).</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:270</div></div>
 <div class="ttc" id="aclassHullTracker_html_af79823f3ce734fede510e64bc66a69f7"><div class="ttname"><a href="classHullTracker.html#af79823f3ce734fede510e64bc66a69f7">HullTracker::update</a></div><div class="ttdeci">void update(const std::vector&lt; std::vector&lt; cv::Point &gt;&gt; &amp;newHulls)</div><div class="ttdoc">Updates the tracked hulls with newly detected hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:39</div></div>
-<div class="ttc" id="aclassHullTracker_html_af84d599e8b5426571d545aaa7ab1ad65"><div class="ttname"><a href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">HullTracker::getTotalHullArea</a></div><div class="ttdeci">float getTotalHullArea() const</div><div class="ttdoc">Gets the total hull area.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:65</div></div>
-<div class="ttc" id="aclassHullTracker_html_aff4f7b373497538efd70ba25ac1e1b62"><div class="ttname"><a href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">HullTracker::drawTrackedHulls</a></div><div class="ttdeci">void drawTrackedHulls(cv::Mat &amp;frame) const</div><div class="ttdoc">Draws the tracked hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:221</div></div>
+<div class="ttc" id="aclassHullTracker_html_af84d599e8b5426571d545aaa7ab1ad65"><div class="ttname"><a href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">HullTracker::getTotalHullArea</a></div><div class="ttdeci">float getTotalHullArea() const</div><div class="ttdoc">Gets the total hull area.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:74</div></div>
+<div class="ttc" id="aclassHullTracker_html_aff4f7b373497538efd70ba25ac1e1b62"><div class="ttname"><a href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">HullTracker::drawTrackedHulls</a></div><div class="ttdeci">void drawTrackedHulls(cv::Mat &amp;frame) const</div><div class="ttdoc">Draws the tracked hulls.</div><div class="ttdef"><b>Definition:</b> HullTracker.cpp:243</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

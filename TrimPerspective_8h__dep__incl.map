@@ -1,5 +1,10 @@
 <map id="src/VideoStreamer/TransformPerspective/TrimPerspective.h" name="src/VideoStreamer/TransformPerspective/TrimPerspective.h">
-<area shape="rect" id="node1" title=" " alt="" coords="143,5,362,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="398,5,617,47"/>
 <area shape="rect" id="node2" href="$TrimPerspective_8cpp.html" title=" " alt="" coords="5,102,239,143"/>
 <area shape="rect" id="node3" href="$CalibrateGui_8cpp.html" title=" " alt="" coords="263,95,506,151"/>
+<area shape="rect" id="node4" href="$PedestrianGui_8h.html" title=" " alt="" coords="531,95,729,151"/>
+<area shape="rect" id="node7" href="$PedestrianHeadless_8h.html" title=" " alt="" coords="753,95,973,151"/>
+<area shape="rect" id="node5" href="$PedestrianGui_8cpp.html" title=" " alt="" coords="409,199,608,255"/>
+<area shape="rect" id="node6" href="$PedestrianWatcher_8cpp.html" title=" " alt="" coords="633,199,859,255"/>
+<area shape="rect" id="node8" href="$PedestrianHeadless_8cpp.html" title=" " alt="" coords="883,199,1118,255"/>
 </map>

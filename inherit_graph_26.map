@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classVideoStreamer.html" title="Class for reading/getting frames from a stream, then transforming that to the ROI based on the chosen..." alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node2" href="$classCalibrateVideoStreamer.html" title="Child class of VideoStreamer used for ROI Calibration with mouse clicks." alt="" coords="172,5,351,32"/>
+</map>

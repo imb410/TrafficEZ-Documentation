@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -74,14 +74,53 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Headless_8h_source.html">Headless.h</a>&quot;</code><br />
+<code>#include &lt;opencv2/opencv.hpp&gt;</code><br />
+<code>#include &quot;FPSHelper.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="HullDetector_8h_source.html">HullDetector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="HullTracker_8h_source.html">HullTracker.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="PipelineBuilder_8h_source.html">PipelineBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="PipelineDirector_8h_source.html">PipelineDirector.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="SegmentationMask_8h_source.html">SegmentationMask.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="TrafficState_8h_source.html">TrafficState.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="VehicleSegmentationStrategy_8h_source.html">VehicleSegmentationStrategy.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="VideoStreamer_8h_source.html">VideoStreamer.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="WarpPerspective_8h_source.html">WarpPerspective.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for VehicleHeadless.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="VehicleHeadless_8h__incl.png" border="0" usemap="#asrc_2WatcherSpawner_2WatcherFactory_2VehicleWatcher_2VehicleHeadless_8h" alt=""/></div>
 <map name="asrc_2WatcherSpawner_2WatcherFactory_2VehicleWatcher_2VehicleHeadless_8h" id="asrc_2WatcherSpawner_2WatcherFactory_2VehicleWatcher_2VehicleHeadless_8h">
-<area shape="rect" title=" " alt="" coords="5,5,236,61"/>
-<area shape="rect" href="Headless_8h.html" title=" " alt="" coords="73,109,168,136"/>
-<area shape="rect" title=" " alt="" coords="91,184,150,211"/>
+<area shape="rect" title=" " alt="" coords="639,5,870,61"/>
+<area shape="rect" href="Headless_8h.html" title=" " alt="" coords="177,109,271,136"/>
+<area shape="rect" href="TrafficState_8h.html" title=" " alt="" coords="5,184,112,211"/>
+<area shape="rect" title=" " alt="" coords="716,408,871,435"/>
+<area shape="rect" title=" " alt="" coords="650,259,750,285"/>
+<area shape="rect" href="HullDetector_8h.html" title=" " alt="" coords="283,333,397,360"/>
+<area shape="rect" href="HullTracker_8h.html" title=" " alt="" coords="747,109,853,136"/>
+<area shape="rect" href="PipelineBuilder_8h.html" title=" " alt="" coords="932,184,1063,211"/>
+<area shape="rect" href="PipelineDirector_8h.html" title=" " alt="" coords="929,109,1066,136"/>
+<area shape="rect" href="SegmentationMask_8h.html" title=" " alt="" coords="1141,109,1301,136"/>
+<area shape="rect" href="VehicleSegmentationStrategy_8h.html" title=" " alt="" coords="1326,109,1551,136"/>
+<area shape="rect" href="VideoStreamer_8h.html" title=" " alt="" coords="373,109,504,136"/>
+<area shape="rect" href="WarpPerspective_8h.html" title=" " alt="" coords="529,109,671,136"/>
+<area shape="rect" title=" " alt="" coords="219,184,299,211"/>
+<area shape="rect" title=" " alt="" coords="136,184,195,211"/>
+<area shape="rect" href="HullTrackable_8h.html" title=" " alt="" coords="733,184,854,211"/>
+<area shape="rect" href="StepFactory_8h.html" title=" " alt="" coords="943,259,1051,285"/>
+<area shape="rect" href="IPreprocessStep_8h.html" title=" " alt="" coords="1137,333,1276,360"/>
+<area shape="rect" title=" " alt="" coords="930,333,1062,360"/>
+<area shape="rect" href="StepParameters_8h.html" title=" " alt="" coords="1138,408,1275,435"/>
+<area shape="rect" href="StepType_8h.html" title=" " alt="" coords="1300,408,1393,435"/>
+<area shape="rect" title=" " alt="" coords="1067,408,1114,435"/>
+<area shape="rect" title=" " alt="" coords="1045,483,1222,509"/>
+<area shape="rect" title=" " alt="" coords="1246,483,1314,509"/>
+<area shape="rect" title=" " alt="" coords="1155,259,1309,285"/>
+<area shape="rect" href="ISegmentationStrategy_8h.html" title=" " alt="" coords="1290,184,1473,211"/>
+<area shape="rect" title=" " alt="" coords="1188,184,1265,211"/>
+<area shape="rect" title=" " alt="" coords="1428,259,1519,285"/>
+<area shape="rect" title=" " alt="" coords="1341,259,1403,285"/>
+<area shape="rect" title=" " alt="" coords="1497,184,1612,211"/>
+<area shape="rect" href="TransformPerspective_8h.html" title=" " alt="" coords="482,184,657,211"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

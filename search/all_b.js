@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['onmouseclickcallback_104',['onMouseClickCallback',['../CalibrateVideoStreamer_8cpp.html#a3bbdd0291684676407a605786d803708',1,'CalibrateVideoStreamer.cpp']]],
-  ['openvideostream_105',['openVideoStream',['../classVideoStreamer.html#af0e97d3a0e019ca34c549fc700217abd',1,'VideoStreamer']]]
+  ['nmixtures_131',['nMixtures',['../structMOG2BackgroundSubtractionParams.html#ac3908250e4257a4b29aa23aa01e2ce47',1,'MOG2BackgroundSubtractionParams']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['thresholdtype_423',['thresholdType',['../structThresholdParams.html#af205cb00990ac7c1a9932b5eb2a5f44a',1,'ThresholdParams']]],
-  ['thresholdvalue_424',['thresholdValue',['../structThresholdParams.html#a2761c33bee91c73532ce77f8c93cd901',1,'ThresholdParams']]]
+  ['readcalibsuccess_545',['readCalibSuccess',['../classVideoStreamer.html#a8848a81839d06d2741b13020575f729f',1,'VideoStreamer']]],
+  ['roimatrix_546',['roiMatrix',['../classVideoStreamer.html#a4cc837fd7f6db452418ac49884e6605c',1,'VideoStreamer']]],
+  ['roipoints_547',['roiPoints',['../classVideoStreamer.html#ad00fa9884ef0fee309d75e1e8ae27437',1,'VideoStreamer']]]
 ];

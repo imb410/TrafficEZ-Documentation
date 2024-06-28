@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['warpperspective_194',['WarpPerspective',['../classWarpPerspective.html',1,'WarpPerspective'],['../classWarpPerspective.html#a4cecf069b41a7c791705d3b0cc16080a',1,'WarpPerspective::WarpPerspective()']]],
-  ['warpperspective_2ecpp_195',['WarpPerspective.cpp',['../WarpPerspective_8cpp.html',1,'']]],
-  ['warpperspective_2eh_196',['WarpPerspective.h',['../WarpPerspective_8h.html',1,'']]],
-  ['watcher_197',['Watcher',['../classWatcher.html',1,'']]],
-  ['watcher_2eh_198',['Watcher.h',['../Watcher_8h.html',1,'']]],
-  ['watcherfactory_199',['WatcherFactory',['../classWatcherFactory.html',1,'']]],
-  ['watcherfactory_2ecpp_200',['WatcherFactory.cpp',['../WatcherFactory_8cpp.html',1,'']]],
-  ['watcherfactory_2eh_201',['WatcherFactory.h',['../WatcherFactory_8h.html',1,'']]],
-  ['watcherspawner_202',['WatcherSpawner',['../classWatcherSpawner.html',1,'']]],
-  ['watcherspawner_2ecpp_203',['WatcherSpawner.cpp',['../WatcherSpawner_8cpp.html',1,'']]],
-  ['watcherspawner_2eh_204',['WatcherSpawner.h',['../WatcherSpawner_8h.html',1,'']]],
-  ['watchertype_205',['WatcherType',['../WatcherFactory_8h.html#aa025135452b1839d6a431e3041827350',1,'WatcherFactory.h']]]
+  ['varthreshold_238',['varThreshold',['../structMOG2BackgroundSubtractionParams.html#a1d00e33f7c968a49e21d7601dfa7004b',1,'MOG2BackgroundSubtractionParams']]],
+  ['varthresholdgen_239',['varThresholdGen',['../structMOG2BackgroundSubtractionParams.html#a5c5b42b4d8281c525070530e7852fe6a',1,'MOG2BackgroundSubtractionParams']]],
+  ['vehicle_240',['VEHICLE',['../WatcherFactory_8h.html#aa025135452b1839d6a431e3041827350ae9fa318f4d73c31493e98096efa497e2',1,'WatcherFactory.h']]],
+  ['vehiclegui_241',['VehicleGui',['../classVehicleGui.html',1,'']]],
+  ['vehiclegui_2ecpp_242',['VehicleGui.cpp',['../VehicleGui_8cpp.html',1,'']]],
+  ['vehiclegui_2eh_243',['VehicleGui.h',['../VehicleGui_8h.html',1,'']]],
+  ['vehicleheadless_244',['VehicleHeadless',['../classVehicleHeadless.html',1,'']]],
+  ['vehicleheadless_2ecpp_245',['VehicleHeadless.cpp',['../VehicleHeadless_8cpp.html',1,'']]],
+  ['vehicleheadless_2eh_246',['VehicleHeadless.h',['../VehicleHeadless_8h.html',1,'']]],
+  ['vehiclesegmentationstrategy_247',['VehicleSegmentationStrategy',['../classVehicleSegmentationStrategy.html',1,'']]],
+  ['vehiclesegmentationstrategy_2ecpp_248',['VehicleSegmentationStrategy.cpp',['../VehicleSegmentationStrategy_8cpp.html',1,'']]],
+  ['vehiclesegmentationstrategy_2eh_249',['VehicleSegmentationStrategy.h',['../VehicleSegmentationStrategy_8h.html',1,'']]],
+  ['vehiclewatcher_250',['VehicleWatcher',['../classVehicleWatcher.html',1,'']]],
+  ['vehiclewatcher_2ecpp_251',['VehicleWatcher.cpp',['../VehicleWatcher_8cpp.html',1,'']]],
+  ['vehiclewatcher_2eh_252',['VehicleWatcher.h',['../VehicleWatcher_8h.html',1,'']]],
+  ['videostreamer_253',['VideoStreamer',['../classVideoStreamer.html',1,'VideoStreamer'],['../classVideoStreamer.html#aaf8e51ef4ea2f7730010c7bb959c552e',1,'VideoStreamer::VideoStreamer()']]],
+  ['videostreamer_2ecpp_254',['VideoStreamer.cpp',['../VideoStreamer_8cpp.html',1,'']]],
+  ['videostreamer_2eh_255',['VideoStreamer.h',['../VideoStreamer_8h.html',1,'']]]
 ];

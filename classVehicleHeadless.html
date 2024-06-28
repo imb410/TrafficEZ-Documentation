@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -93,15 +93,29 @@ Collaboration diagram for VehicleHeadless:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab541321ef769d07e037c3237e0177a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVehicleHeadless.html#aab541321ef769d07e037c3237e0177a4">process</a> (const std::string &amp;streamName, const std::string &amp;calibName) const override</td></tr>
-<tr class="separator:aab541321ef769d07e037c3237e0177a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea7ba1e561c40565ce2543f9d3698a68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVehicleHeadless.html#aea7ba1e561c40565ce2543f9d3698a68">initialize</a> (const std::string &amp;streamName, const std::string &amp;calibName) override</td></tr>
+<tr class="separator:aea7ba1e561c40565ce2543f9d3698a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb274fce135b92b6bd32aca18782a60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVehicleHeadless.html#a2fb274fce135b92b6bd32aca18782a60">process</a> () override</td></tr>
+<tr class="separator:a2fb274fce135b92b6bd32aca18782a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe573ef3998ecda3a9f02d31190aeae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVehicleHeadless.html#abbe573ef3998ecda3a9f02d31190aeae">getTrafficDensity</a> () override</td></tr>
+<tr class="separator:abbe573ef3998ecda3a9f02d31190aeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0895f86f416d5b7d8366e68bf42d42c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVehicleHeadless.html#a0895f86f416d5b7d8366e68bf42d42c8">getInstanceCount</a> () override</td></tr>
+<tr class="separator:a0895f86f416d5b7d8366e68bf42d42c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classHeadless"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classHeadless')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classHeadless.html">Headless</a></td></tr>
 <tr class="memitem:a28ea704b3740752d890f462ed614e991 inherit pub_methods_classHeadless"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeadless.html#a28ea704b3740752d890f462ed614e991">~Headless</a> ()</td></tr>
 <tr class="separator:a28ea704b3740752d890f462ed614e991 inherit pub_methods_classHeadless"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3d752cfb3a61255fa0f84393291c03e inherit pub_methods_classHeadless"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeadless.html#aa3d752cfb3a61255fa0f84393291c03e">setCurrentTrafficState</a> (<a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a> state)</td></tr>
+<tr class="separator:aa3d752cfb3a61255fa0f84393291c03e inherit pub_methods_classHeadless"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classHeadless"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classHeadless')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classHeadless.html">Headless</a></td></tr>
+<tr class="memitem:a37de0fb0c78ba09103a92446d3606c95 inherit pro_attribs_classHeadless"><td class="memItemLeft" align="right" valign="top"><a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHeadless.html#a37de0fb0c78ba09103a92446d3606c95">currentTrafficState</a></td></tr>
+<tr class="separator:a37de0fb0c78ba09103a92446d3606c95 inherit pro_attribs_classHeadless"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aab541321ef769d07e037c3237e0177a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab541321ef769d07e037c3237e0177a4">&#9670;&nbsp;</a></span>process()</h2>
+<a id="a0895f86f416d5b7d8366e68bf42d42c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0895f86f416d5b7d8366e68bf42d42c8">&#9670;&nbsp;</a></span>getInstanceCount()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -110,7 +124,61 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void VehicleHeadless::process </td>
+          <td class="memname">int VehicleHeadless::getInstanceCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classHeadless.html#aaca1e9f57af6a3926731cd054cb9f5bf">Headless</a>.</p>
+
+</div>
+</div>
+<a id="abbe573ef3998ecda3a9f02d31190aeae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe573ef3998ecda3a9f02d31190aeae">&#9670;&nbsp;</a></span>getTrafficDensity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float VehicleHeadless::getTrafficDensity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classHeadless.html#a6e74987f4e49668813168370d5614493">Headless</a>.</p>
+
+</div>
+</div>
+<a id="aea7ba1e561c40565ce2543f9d3698a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea7ba1e561c40565ce2543f9d3698a68">&#9670;&nbsp;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleHeadless::initialize </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>streamName</em>, </td>
@@ -124,7 +192,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -134,7 +202,34 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classHeadless.html#a3a3a8cc35b3c4956c6d7770d775c6164">Headless</a>.</p>
+<p>Implements <a class="el" href="classHeadless.html#a9b1800ca218edd1a7b907b77791e8cd6">Headless</a>.</p>
+
+</div>
+</div>
+<a id="a2fb274fce135b92b6bd32aca18782a60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb274fce135b92b6bd32aca18782a60">&#9670;&nbsp;</a></span>process()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void VehicleHeadless::process </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classHeadless.html#a8f295cb070df50b09618cfb9bc4d6691">Headless</a>.</p>
 
 </div>
 </div>

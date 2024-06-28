@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -75,19 +75,52 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PEDESTRIAN_HEADLESS_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Headless_8h.html">Headless.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="classPedestrianHeadless.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPedestrianHeadless.html">PedestrianHeadless</a> : <span class="keyword">public</span> <a class="code" href="classHeadless.html">Headless</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianHeadless.html#aaf26296bc70476286f40dc8abbf71f77">process</a>(<span class="keyword">const</span> std::string&amp; streamName,</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                 <span class="keyword">const</span> std::string&amp; calibName) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;};</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;opencv2/opencv.hpp&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PersonSegmentationStrategy_8h.html">PersonSegmentationStrategy.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SegmentationMask_8h.html">SegmentationMask.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TrimPerspective_8h.html">TrimPerspective.h</a>&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="VideoStreamer_8h.html">VideoStreamer.h</a>&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="WarpPerspective_8h.html">WarpPerspective.h</a>&quot;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classPedestrianHeadless.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classPedestrianHeadless.html">PedestrianHeadless</a> : <span class="keyword">public</span> <a class="code" href="classHeadless.html">Headless</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianHeadless.html#aac41f82ded256336bf16fb9e1f8b58a7">initialize</a>(<span class="keyword">const</span> std::string&amp; streamName,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                    <span class="keyword">const</span> std::string&amp; calibName) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classPedestrianHeadless.html#ade96fc81deffcd9565830a08462aa90d">process</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classPedestrianHeadless.html#aec4ff328a9911dd0b8e21998f8674be4">getInstanceCount</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="classVideoStreamer.html">VideoStreamer</a> videoStreamer;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classTrimPerspective.html">TrimPerspective</a> trimPerspective;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="classWarpPerspective.html">WarpPerspective</a> warpPerspective;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="classSegmentationMask.html">SegmentationMask</a> segmentation;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    std::string segModel;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    cv::Mat inputFrame;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    cv::Mat trimmedFrame;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    cv::Mat outputMask;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aHeadless_8h_html"><div class="ttname"><a href="Headless_8h.html">Headless.h</a></div></div>
-<div class="ttc" id="aclassHeadless_html"><div class="ttname"><a href="classHeadless.html">Headless</a></div><div class="ttdef"><b>Definition:</b> Headless.h:7</div></div>
-<div class="ttc" id="aclassPedestrianHeadless_html"><div class="ttname"><a href="classPedestrianHeadless.html">PedestrianHeadless</a></div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.h:7</div></div>
-<div class="ttc" id="aclassPedestrianHeadless_html_aaf26296bc70476286f40dc8abbf71f77"><div class="ttname"><a href="classPedestrianHeadless.html#aaf26296bc70476286f40dc8abbf71f77">PedestrianHeadless::process</a></div><div class="ttdeci">void process(const std::string &amp;streamName, const std::string &amp;calibName) const override</div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.cpp:4</div></div>
+<div class="ttc" id="aPersonSegmentationStrategy_8h_html"><div class="ttname"><a href="PersonSegmentationStrategy_8h.html">PersonSegmentationStrategy.h</a></div></div>
+<div class="ttc" id="aSegmentationMask_8h_html"><div class="ttname"><a href="SegmentationMask_8h.html">SegmentationMask.h</a></div></div>
+<div class="ttc" id="aTrimPerspective_8h_html"><div class="ttname"><a href="TrimPerspective_8h.html">TrimPerspective.h</a></div></div>
+<div class="ttc" id="aVideoStreamer_8h_html"><div class="ttname"><a href="VideoStreamer_8h.html">VideoStreamer.h</a></div></div>
+<div class="ttc" id="aWarpPerspective_8h_html"><div class="ttname"><a href="WarpPerspective_8h.html">WarpPerspective.h</a></div></div>
+<div class="ttc" id="aclassHeadless_html"><div class="ttname"><a href="classHeadless.html">Headless</a></div><div class="ttdef"><b>Definition:</b> Headless.h:9</div></div>
+<div class="ttc" id="aclassPedestrianHeadless_html"><div class="ttname"><a href="classPedestrianHeadless.html">PedestrianHeadless</a></div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.h:14</div></div>
+<div class="ttc" id="aclassPedestrianHeadless_html_aac41f82ded256336bf16fb9e1f8b58a7"><div class="ttname"><a href="classPedestrianHeadless.html#aac41f82ded256336bf16fb9e1f8b58a7">PedestrianHeadless::initialize</a></div><div class="ttdeci">void initialize(const std::string &amp;streamName, const std::string &amp;calibName) override</div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.cpp:3</div></div>
+<div class="ttc" id="aclassPedestrianHeadless_html_ade96fc81deffcd9565830a08462aa90d"><div class="ttname"><a href="classPedestrianHeadless.html#ade96fc81deffcd9565830a08462aa90d">PedestrianHeadless::process</a></div><div class="ttdeci">void process() override</div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.cpp:29</div></div>
+<div class="ttc" id="aclassPedestrianHeadless_html_aec4ff328a9911dd0b8e21998f8674be4"><div class="ttname"><a href="classPedestrianHeadless.html#aec4ff328a9911dd0b8e21998f8674be4">PedestrianHeadless::getInstanceCount</a></div><div class="ttdeci">int getInstanceCount() override</div><div class="ttdef"><b>Definition:</b> PedestrianHeadless.cpp:37</div></div>
+<div class="ttc" id="aclassSegmentationMask_html"><div class="ttname"><a href="classSegmentationMask.html">SegmentationMask</a></div><div class="ttdef"><b>Definition:</b> SegmentationMask.h:10</div></div>
+<div class="ttc" id="aclassTrimPerspective_html"><div class="ttname"><a href="classTrimPerspective.html">TrimPerspective</a></div><div class="ttdoc">Trim strategy of TransformPerspective.</div><div class="ttdef"><b>Definition:</b> TrimPerspective.h:10</div></div>
+<div class="ttc" id="aclassVideoStreamer_html"><div class="ttname"><a href="classVideoStreamer.html">VideoStreamer</a></div><div class="ttdoc">Class for reading/getting frames from a stream, then transforming that to the ROI based on the chosen...</div><div class="ttdef"><b>Definition:</b> VideoStreamer.h:13</div></div>
+<div class="ttc" id="aclassWarpPerspective_html"><div class="ttname"><a href="classWarpPerspective.html">WarpPerspective</a></div><div class="ttdoc">Warp strategy of TransformPerspective.</div><div class="ttdef"><b>Definition:</b> WarpPerspective.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

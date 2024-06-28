@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['nmixtures_416',['nMixtures',['../structMOG2BackgroundSubtractionParams.html#ac3908250e4257a4b29aa23aa01e2ce47',1,'MOG2BackgroundSubtractionParams']]]
+  ['kernelsize_540',['kernelSize',['../structGaussianBlurParams.html#aa24d5eef5fd633b8cb7d373a3e826fff',1,'GaussianBlurParams::kernelSize()'],['../structDilationParams.html#a728835b3c3d75a7e5093b643307c13c2',1,'DilationParams::kernelSize()'],['../structErosionParams.html#a6711e5054343593a7961a14e9f3bc694',1,'ErosionParams::kernelSize()']]]
 ];

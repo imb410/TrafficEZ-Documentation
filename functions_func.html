@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -77,21 +77,27 @@ $(function() {
 <li>applyFrameRoi()
 : <a class="el" href="classVideoStreamer.html#a2ba2e37866497c474b3305f55a975ed5">VideoStreamer</a>
 </li>
+<li>applyPerspective()
+: <a class="el" href="classVideoStreamer.html#a5b39870765cc1aaf3a855a5ca141107e">VideoStreamer</a>
+</li>
 </ul>
 
 
 <h3><a id="index_c"></a>- c -</h3><ul>
-<li>calculateAllAveragedSpeed()
-: <a class="el" href="classHullTracker.html#a79e20418074c40ae384cbd7a4bd84f2d">HullTracker</a>
-</li>
 <li>calculateAverageSpeed()
 : <a class="el" href="classHullTrackable.html#a387cec8e95529d9219f4037f86a824c9">HullTrackable</a>
 </li>
 <li>calculateCentroid()
 : <a class="el" href="classHullTrackable.html#a888d370e5e832c4c004a0cbf4fc0bd77">HullTrackable</a>
 </li>
+<li>calibrate()
+: <a class="el" href="classMultiprocessTraffic.html#a2513883d2573290f7985f38b048c440e">MultiprocessTraffic</a>
+</li>
 <li>CalibrateVideoStreamer()
 : <a class="el" href="classCalibrateVideoStreamer.html#aded50b93ab72b8532deccfa6618af1c6">CalibrateVideoStreamer</a>
+</li>
+<li>ChildProcess()
+: <a class="el" href="classChildProcess.html#a2b44f52e6d76459ba23a695a97e6fb8b">ChildProcess</a>
 </li>
 <li>clearAllSteps()
 : <a class="el" href="classPipelineBuilder.html#afe52eddfc58fb22a95510e1ddccf2de2">PipelineBuilder</a>
@@ -119,10 +125,9 @@ $(function() {
 : <a class="el" href="classDilationStep.html#af20f10e3c0c27dfb1ce924c02ecb18b6">DilationStep</a>
 </li>
 <li>display()
-: <a class="el" href="classCalibrateGui.html#aa9021d4a5a49ddd64d3163a218c14a42">CalibrateGui</a>
-, <a class="el" href="classGui.html#a842f126cfa0b6048a9a6bf2ca7ec02c5">Gui</a>
-, <a class="el" href="classPedestrianGui.html#a98ea96c8fc5eb38a5c4f1095e478fd09">PedestrianGui</a>
-, <a class="el" href="classVehicleGui.html#a85ff244ec6a3cf66b6090c9d083db227">VehicleGui</a>
+: <a class="el" href="classGui.html#adf1fbaf0a4bea9637d14c8fd377d6dd9">Gui</a>
+, <a class="el" href="classPedestrianGui.html#a1453c0d75296d5fb72937361a0780bca">PedestrianGui</a>
+, <a class="el" href="classVehicleGui.html#a9089be336973bd1b5b6ce68d29cab31d">VehicleGui</a>
 </li>
 <li>drawLanesInfo()
 : <a class="el" href="classHullTracker.html#ad8131bc58c8297a8d9add179303153f6">HullTracker</a>
@@ -140,12 +145,36 @@ $(function() {
 <li>ErosionStep()
 : <a class="el" href="classErosionStep.html#a6de451c000f2504b53b6bcf2e38895ff">ErosionStep</a>
 </li>
+<li>executePhase()
+: <a class="el" href="classRelayController.html#a24100498f6d28fac87941df0dacaf1bc">RelayController</a>
+</li>
+<li>executeTransitionPhase()
+: <a class="el" href="classRelayController.html#a62fbe7f763df00a66630d4773c8271af">RelayController</a>
+</li>
+</ul>
+
+
+<h3><a id="index_f"></a>- f -</h3><ul>
+<li>filterResults()
+: <a class="el" href="classISegmentationStrategy.html#a8fd6b1847ba985acc369991a1262e89e">ISegmentationStrategy</a>
+, <a class="el" href="classPersonSegmentationStrategy.html#a7d4ee860cec40c18eb4059b8438e2baf">PersonSegmentationStrategy</a>
+, <a class="el" href="classVehicleSegmentationStrategy.html#a1a56a98149c6a072fc5051f506b9c2b6">VehicleSegmentationStrategy</a>
+</li>
 </ul>
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>GaussianBlurStep()
 : <a class="el" href="classGaussianBlurStep.html#a744748cf7fd34e1ceac28f5c5f5dd69d">GaussianBlurStep</a>
+</li>
+<li>generateMask()
+: <a class="el" href="classSegmentationMask.html#a6f75b26464f0de8f6ef38e7d03e1bf4f">SegmentationMask</a>
+</li>
+<li>getAveragedSpeed()
+: <a class="el" href="classHullTracker.html#a29095f64500ad2bd03d0a8868d5a947e">HullTracker</a>
+</li>
+<li>getContourCount()
+: <a class="el" href="classSegmentationMask.html#a7dc5f52f44510e393420ffc3e6be9596">SegmentationMask</a>
 </li>
 <li>getCurrentParameters()
 : <a class="el" href="classDilationStep.html#aa5810db3e50dfbcba173863fe8b8fe0f">DilationStep</a>
@@ -156,8 +185,14 @@ $(function() {
 , <a class="el" href="classMOG2BackgroundSubtractionStep.html#a48cb3bae40ec8feeaed423570091cb14">MOG2BackgroundSubtractionStep</a>
 , <a class="el" href="classThresholdStep.html#a3dc9160b3b9eb4988e25da2e15265a00">ThresholdStep</a>
 </li>
+<li>getDetectionResultSize()
+: <a class="el" href="classSegmentationMask.html#af3fb8da5f90bcd2abf4130fc4af0615e">SegmentationMask</a>
+</li>
 <li>getEndDetectionLine()
 : <a class="el" href="classHullDetector.html#afc0d4c87f384a141bb2e924541dcefd0">HullDetector</a>
+</li>
+<li>getFPS()
+: <a class="el" href="classVideoStreamer.html#a8b0c2d850e671e1c6c90ee35b3487d44">VideoStreamer</a>
 </li>
 <li>getFramesSinceSeen()
 : <a class="el" href="classHullTrackable.html#a98b9ccfa6b2830dc6dce13094b3590e6">HullTrackable</a>
@@ -165,11 +200,25 @@ $(function() {
 <li>getHullArea()
 : <a class="el" href="classHullTrackable.html#ada64c606997e95d2619167e5065cc29b">HullTrackable</a>
 </li>
+<li>getHullCount()
+: <a class="el" href="classHullTracker.html#aaa327bbc6e7c10b95c231d11365204ef">HullTracker</a>
+</li>
 <li>getHullPoints()
 : <a class="el" href="classHullTrackable.html#a5c1c81b23f2527227634d9da5737c1b5">HullTrackable</a>
 </li>
 <li>getHulls()
 : <a class="el" href="classHullDetector.html#ad6aa6156313874816cb079119f5a4e33">HullDetector</a>
+</li>
+<li>getInstanceCount()
+: <a class="el" href="classGui.html#a17cbaebeb68064153f008d9681a94374">Gui</a>
+, <a class="el" href="classHeadless.html#aaca1e9f57af6a3926731cd054cb9f5bf">Headless</a>
+, <a class="el" href="classPedestrianGui.html#a151b2444409319d8f03db0251088fe94">PedestrianGui</a>
+, <a class="el" href="classPedestrianHeadless.html#aec4ff328a9911dd0b8e21998f8674be4">PedestrianHeadless</a>
+, <a class="el" href="classPedestrianWatcher.html#a972081e979a7920dbedc9d9cfdc7ec2f">PedestrianWatcher</a>
+, <a class="el" href="classVehicleGui.html#a01b061d0a178c7da6f6ac446ba4b478a">VehicleGui</a>
+, <a class="el" href="classVehicleHeadless.html#a0895f86f416d5b7d8366e68bf42d42c8">VehicleHeadless</a>
+, <a class="el" href="classVehicleWatcher.html#aa78e70012182ccf2209b1f5d5504eea1">VehicleWatcher</a>
+, <a class="el" href="classWatcher.html#a2bc29f56503c72a2e3772000cc7f853d">Watcher</a>
 </li>
 <li>getLaneLength()
 : <a class="el" href="classVideoStreamer.html#a3baa75bbf63e4cf22310f74437ed76f1">VideoStreamer</a>
@@ -182,6 +231,9 @@ $(function() {
 </li>
 <li>getNumberOfSteps()
 : <a class="el" href="classPipelineBuilder.html#a762ef990a20277d6e9641d2c9a55718d">PipelineBuilder</a>
+</li>
+<li>getSegModel()
+: <a class="el" href="classVideoStreamer.html#a2feca301143ab0407c48f0fcd1b26e8b">VideoStreamer</a>
 </li>
 <li>getStepCurrentParameters()
 : <a class="el" href="classPipelineBuilder.html#a98bae9eae91e18bd08944402c5c23614">PipelineBuilder</a>
@@ -198,6 +250,14 @@ $(function() {
 <li>getTrackedHulls()
 : <a class="el" href="classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf">HullTracker</a>
 </li>
+<li>getTrafficDensity()
+: <a class="el" href="classGui.html#a97a1a6efcca40b25999710168694359f">Gui</a>
+, <a class="el" href="classHeadless.html#a6e74987f4e49668813168370d5614493">Headless</a>
+, <a class="el" href="classVehicleGui.html#ad44da23dd3beecc53caf9c4b4640b28c">VehicleGui</a>
+, <a class="el" href="classVehicleHeadless.html#abbe573ef3998ecda3a9f02d31190aeae">VehicleHeadless</a>
+, <a class="el" href="classVehicleWatcher.html#acf032f312a895295bc9c9d4815a84461">VehicleWatcher</a>
+, <a class="el" href="classWatcher.html#a5fe9e1d9ad609b3a8a3c954841819de2">Watcher</a>
+</li>
 <li>getType()
 : <a class="el" href="classDilationStep.html#a8deacb6695709ede5213acf0699ef3f5">DilationStep</a>
 , <a class="el" href="classErosionStep.html#a207a4466df401fef2f277653643fbf66">ErosionStep</a>
@@ -206,6 +266,9 @@ $(function() {
 , <a class="el" href="classIPreprocessStep.html#a62a3855986b5e7f48a36d260ecbc2cee">IPreprocessStep</a>
 , <a class="el" href="classMOG2BackgroundSubtractionStep.html#ad944d7643168838da030bb3d6086cfc5">MOG2BackgroundSubtractionStep</a>
 , <a class="el" href="classThresholdStep.html#a1b705fe2cf07c0449e7673dfdb5b6723">ThresholdStep</a>
+</li>
+<li>getWhiteArea()
+: <a class="el" href="classSegmentationMask.html#ad1b6e8bdaf894f2c99fa0b169edb5882">SegmentationMask</a>
 </li>
 </ul>
 
@@ -237,9 +300,21 @@ $(function() {
 : <a class="el" href="classHullTracker.html#ac766bc1e8819e062085125791babc68c">HullTracker</a>
 </li>
 <li>initialize()
-: <a class="el" href="classTransformPerspective.html#a58de729b2dfb70cfbc1b96676eb97b15">TransformPerspective</a>
+: <a class="el" href="classCalibrateGui.html#a1e9c11e316500a3d60dbe13867fe633d">CalibrateGui</a>
+, <a class="el" href="classCalibrateHeadless.html#a4956842e40be7530281193a3c9ccd965">CalibrateHeadless</a>
+, <a class="el" href="classGui.html#a2c4c826d533c5d5fc60abffceeefb2f9">Gui</a>
+, <a class="el" href="classHeadless.html#a9b1800ca218edd1a7b907b77791e8cd6">Headless</a>
+, <a class="el" href="classPedestrianGui.html#a66d8bdff99227270358ce7ea392b96c4">PedestrianGui</a>
+, <a class="el" href="classPedestrianHeadless.html#aac41f82ded256336bf16fb9e1f8b58a7">PedestrianHeadless</a>
+, <a class="el" href="classRelayController.html#aa2b72686a7e533740d16c862462d77fe">RelayController</a>
+, <a class="el" href="classTransformPerspective.html#a58de729b2dfb70cfbc1b96676eb97b15">TransformPerspective</a>
 , <a class="el" href="classTrimPerspective.html#a9bb0ff516ffdcbbb5ca7631aab34015e">TrimPerspective</a>
+, <a class="el" href="classVehicleGui.html#a2949a0a9229434b5c69e7d84090876bc">VehicleGui</a>
+, <a class="el" href="classVehicleHeadless.html#aea7ba1e561c40565ce2543f9d3698a68">VehicleHeadless</a>
 , <a class="el" href="classWarpPerspective.html#a43d718174580c8073f7184e34a4dd7a0">WarpPerspective</a>
+</li>
+<li>initializeModel()
+: <a class="el" href="classSegmentationMask.html#afe66590c5d356677f3a959c161a80869">SegmentationMask</a>
 </li>
 <li>initializePerspectiveTransform()
 : <a class="el" href="classVideoStreamer.html#ab431d5fb50bd95cde00f5f4f559dd904">VideoStreamer</a>
@@ -261,6 +336,9 @@ $(function() {
 <li>MOG2BackgroundSubtractionStep()
 : <a class="el" href="classMOG2BackgroundSubtractionStep.html#aeb1b9eb2738685fddd94e61e4ebf4ce6">MOG2BackgroundSubtractionStep</a>
 </li>
+<li>MultiprocessTraffic()
+: <a class="el" href="classMultiprocessTraffic.html#adc41a599668bc22907a716ddfecd0011">MultiprocessTraffic</a>
+</li>
 </ul>
 
 
@@ -272,25 +350,38 @@ $(function() {
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>ParentProcess()
+: <a class="el" href="classParentProcess.html#ae97586f895baddd5a9f7db8dcbbec47e">ParentProcess</a>
+</li>
 <li>PipelineTrackbar()
 : <a class="el" href="classPipelineTrackbar.html#a568593ccdcbafc0656405cb15b56c907">PipelineTrackbar</a>
 </li>
 <li>process()
-: <a class="el" href="classCalibrateHeadless.html#adc4d6a40ae046b093a2287427c85eb69">CalibrateHeadless</a>
-, <a class="el" href="classDilationStep.html#a6b6132774eac228fe86528122760e083">DilationStep</a>
+: <a class="el" href="classDilationStep.html#a6b6132774eac228fe86528122760e083">DilationStep</a>
 , <a class="el" href="classErosionStep.html#a45f5d294b087665ad115f8529f387db5">ErosionStep</a>
 , <a class="el" href="classGaussianBlurStep.html#a839205b171a4ea1509626b8118d991fa">GaussianBlurStep</a>
 , <a class="el" href="classGrayscaleStep.html#abbb4fc32a8e8d39ed09da38f107a2f5f">GrayscaleStep</a>
-, <a class="el" href="classHeadless.html#a3a3a8cc35b3c4956c6d7770d775c6164">Headless</a>
+, <a class="el" href="classHeadless.html#a8f295cb070df50b09618cfb9bc4d6691">Headless</a>
 , <a class="el" href="classIPreprocessStep.html#a8d4c8e26bc7056cc1e1b54ed46441ad7">IPreprocessStep</a>
 , <a class="el" href="classMOG2BackgroundSubtractionStep.html#a74dc32fed75509be52931be3f373f607">MOG2BackgroundSubtractionStep</a>
-, <a class="el" href="classPedestrianHeadless.html#aaf26296bc70476286f40dc8abbf71f77">PedestrianHeadless</a>
+, <a class="el" href="classPedestrianHeadless.html#ade96fc81deffcd9565830a08462aa90d">PedestrianHeadless</a>
 , <a class="el" href="classPipelineBuilder.html#a23da4a2f21e999ba037d590a16d71da3">PipelineBuilder</a>
 , <a class="el" href="classThresholdStep.html#ae9fd689737cff450a68f77f75eea5137">ThresholdStep</a>
-, <a class="el" href="classVehicleHeadless.html#aab541321ef769d07e037c3237e0177a4">VehicleHeadless</a>
+, <a class="el" href="classVehicleHeadless.html#a2fb274fce135b92b6bd32aca18782a60">VehicleHeadless</a>
 </li>
 <li>processDebugStack()
 : <a class="el" href="classPipelineBuilder.html#aaa73edbf0b90904524985e58806fe1e3">PipelineBuilder</a>
+</li>
+<li>processFrame()
+: <a class="el" href="classPedestrianWatcher.html#ad6e302908e8e7141954425f7995fa041">PedestrianWatcher</a>
+, <a class="el" href="classVehicleWatcher.html#a794804c5f9e44c501d6a4d141f2d500d">VehicleWatcher</a>
+, <a class="el" href="classWatcher.html#ae4558e732a39a408abc49427f03cedda">Watcher</a>
+</li>
+<li>processResults()
+: <a class="el" href="classSegmentationMask.html#af692e6e1c81303377f64eb19c7d574ca">SegmentationMask</a>
+</li>
+<li>processResultsDebug()
+: <a class="el" href="classSegmentationMask.html#a2011418e0ea27251f245a9919cec4c63">SegmentationMask</a>
 </li>
 </ul>
 
@@ -299,11 +390,26 @@ $(function() {
 <li>readCalibrationData()
 : <a class="el" href="classVideoStreamer.html#aa745d25aa3f021d6ffa7bd9de5838d0d">VideoStreamer</a>
 </li>
+<li>RelayController()
+: <a class="el" href="classRelayController.html#ac22d561e62061ea4d26ffc92bb113048">RelayController</a>
+</li>
 <li>resetCalibrationPoints()
 : <a class="el" href="classCalibrateVideoStreamer.html#aa0f8bdc8a8b3cebb232481a1d440bca9">CalibrateVideoStreamer</a>
 </li>
+<li>resetTrackerVariables()
+: <a class="el" href="classHullTracker.html#a0b6831d2ba193ff9db8b57741e0216b6">HullTracker</a>
+</li>
 <li>resizeStreamWindow()
 : <a class="el" href="classVideoStreamer.html#a641cadd0b95f75df7b32a8d45085674b">VideoStreamer</a>
+</li>
+<li>run()
+: <a class="el" href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">ParentProcess</a>
+</li>
+<li>runPedestrian()
+: <a class="el" href="classChildProcess.html#a3dd124e02fd9cbe2211b5c1ee52e5b33">ChildProcess</a>
+</li>
+<li>runVehicle()
+: <a class="el" href="classChildProcess.html#a94a514098b3ce3defe4bf8b5603c6663">ChildProcess</a>
 </li>
 </ul>
 
@@ -315,14 +421,26 @@ $(function() {
 <li>savePipelineConfig()
 : <a class="el" href="classPipelineDirector.html#a0fa7175e94061b44e5c0af39d97092b6">PipelineDirector</a>
 </li>
+<li>SegmentationMask()
+: <a class="el" href="classSegmentationMask.html#a8f62a95f9835f71f21c4a5df666ac0d3">SegmentationMask</a>
+</li>
 <li>serializeStepParameters()
 : <a class="el" href="classStepFactory.html#a2aa0352946329ea7ca37951936e6053f">StepFactory</a>
+</li>
+<li>setCurrentTrafficState()
+: <a class="el" href="classGui.html#a73748b46d6e2a0836fb865179f4c4d35">Gui</a>
+, <a class="el" href="classHeadless.html#aa3d752cfb3a61255fa0f84393291c03e">Headless</a>
+, <a class="el" href="classVehicleWatcher.html#a5d8f763fc1885d3bc866b719efe5c143">VehicleWatcher</a>
+, <a class="el" href="classWatcher.html#af0de541b25d5d614f43989471e231d92">Watcher</a>
 </li>
 <li>setFramesSinceSeen()
 : <a class="el" href="classHullTrackable.html#ac17f1df0530151b68b4748a19cb5f49e">HullTrackable</a>
 </li>
 <li>setHullPoints()
 : <a class="el" href="classHullTrackable.html#a3217b034aa20a88854f16dba1db668ec">HullTrackable</a>
+</li>
+<li>setPhaseCycle()
+: <a class="el" href="classRelayController.html#a8cd2ecd5999769f2a1c9257d6058918e">RelayController</a>
 </li>
 <li>setStepParameters()
 : <a class="el" href="classDilationStep.html#ae007ce8313f7356ffd8fbe0282c9c1f8">DilationStep</a>
@@ -347,16 +465,17 @@ $(function() {
 : <a class="el" href="classTransformPerspective.html#a883af6990d102f561b68aadc80a12c26">TransformPerspective</a>
 </li>
 <li>spawn()
-: <a class="el" href="classCalibrateWatcher.html#ac792af5f571fd36c18684f0bacf07744">CalibrateWatcher</a>
-, <a class="el" href="classPedestrianWatcher.html#a26c1ce11c75fa07933f2ff6988444e8a">PedestrianWatcher</a>
-, <a class="el" href="classVehicleWatcher.html#a9ade0b94f42fe3da2daef858bf24db3a">VehicleWatcher</a>
-, <a class="el" href="classWatcher.html#adc5e17f0caaa89da281aa38e1e7c0ee6">Watcher</a>
+: <a class="el" href="classCalibrateWatcher.html#accf9d41438f2906c4173ad2dfc76c7a5">CalibrateWatcher</a>
+, <a class="el" href="classPedestrianWatcher.html#ac9729c279a33f6af63c907ba72fad530">PedestrianWatcher</a>
+, <a class="el" href="classVehicleWatcher.html#ada0f1553ab403e0ce842a554e090f2fb">VehicleWatcher</a>
+, <a class="el" href="classWatcher.html#ac2d20876d706b0e4d0385b80cf3d2fa6">Watcher</a>
 </li>
 <li>spawnWatcher()
 : <a class="el" href="classWatcherSpawner.html#aa52c0166157e3a6a5290765fd6a13cb3">WatcherSpawner</a>
 </li>
 <li>start()
-: <a class="el" href="classTrafficManager.html#a03218c6121e5d2fe4904e86b5fb66fc2">TrafficManager</a>
+: <a class="el" href="classMultiprocessTraffic.html#adcd7ff910e0ab53e341bdd9e857b2c5a">MultiprocessTraffic</a>
+, <a class="el" href="classTrafficManager.html#a03218c6121e5d2fe4904e86b5fb66fc2">TrafficManager</a>
 </li>
 <li>stepTypeToString()
 : <a class="el" href="classStepFactory.html#ac0df061aea3cdab48e9c7ae20957f8e8">StepFactory</a>
@@ -372,7 +491,7 @@ $(function() {
 : <a class="el" href="classThresholdStep.html#a31adc8bae78f2fe3d08e9aa8dc1496b1">ThresholdStep</a>
 </li>
 <li>TrafficManager()
-: <a class="el" href="classTrafficManager.html#a826aeabd004d05b475eed355a555f907">TrafficManager</a>
+: <a class="el" href="classTrafficManager.html#ae6b71331ab1bd1ee9e635d1d05785b56">TrafficManager</a>
 </li>
 <li>TrimPerspective()
 : <a class="el" href="classTrimPerspective.html#a4e6c59bd900a4a679704e6afbc147de3">TrimPerspective</a>
@@ -426,8 +545,14 @@ $(function() {
 <li>~IPreprocessStep()
 : <a class="el" href="classIPreprocessStep.html#ace6451310631e5f6f30c190108e0b969">IPreprocessStep</a>
 </li>
+<li>~ISegmentationStrategy()
+: <a class="el" href="classISegmentationStrategy.html#ae53fd5958c2442301635e50d6f27d8a8">ISegmentationStrategy</a>
+</li>
 <li>~PipelineTrackbar()
 : <a class="el" href="classPipelineTrackbar.html#a549520242fb7efdd09ef3f2f07a7fafc">PipelineTrackbar</a>
+</li>
+<li>~RelayController()
+: <a class="el" href="classRelayController.html#a6ae4315d5f8db0d06c9f277c97565ea5">RelayController</a>
 </li>
 <li>~TransformPerspective()
 : <a class="el" href="classTransformPerspective.html#aa1d297eaac1b940161a377170b406951">TransformPerspective</a>

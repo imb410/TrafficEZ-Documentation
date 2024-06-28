@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classGui-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Gui Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -88,8 +89,21 @@ Inheritance diagram for Gui:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a183097cbd93f0870c5112ae4e26ffdba"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a183097cbd93f0870c5112ae4e26ffdba">~Gui</a> ()</td></tr>
 <tr class="separator:a183097cbd93f0870c5112ae4e26ffdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a842f126cfa0b6048a9a6bf2ca7ec02c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a842f126cfa0b6048a9a6bf2ca7ec02c5">display</a> (const std::string &amp;streamName, const std::string &amp;calibName) const =0</td></tr>
-<tr class="separator:a842f126cfa0b6048a9a6bf2ca7ec02c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4c826d533c5d5fc60abffceeefb2f9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a2c4c826d533c5d5fc60abffceeefb2f9">initialize</a> (const std::string &amp;streamName, const std::string &amp;calibName)=0</td></tr>
+<tr class="separator:a2c4c826d533c5d5fc60abffceeefb2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1fbaf0a4bea9637d14c8fd377d6dd9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#adf1fbaf0a4bea9637d14c8fd377d6dd9">display</a> ()</td></tr>
+<tr class="separator:adf1fbaf0a4bea9637d14c8fd377d6dd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73748b46d6e2a0836fb865179f4c4d35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a73748b46d6e2a0836fb865179f4c4d35">setCurrentTrafficState</a> (<a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a> state)</td></tr>
+<tr class="separator:a73748b46d6e2a0836fb865179f4c4d35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a1a6efcca40b25999710168694359f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a97a1a6efcca40b25999710168694359f">getTrafficDensity</a> ()</td></tr>
+<tr class="separator:a97a1a6efcca40b25999710168694359f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17cbaebeb68064153f008d9681a94374"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a17cbaebeb68064153f008d9681a94374">getInstanceCount</a> ()</td></tr>
+<tr class="separator:a17cbaebeb68064153f008d9681a94374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a4ef2f8d2afb2160b81f533f2e16f6977"><td class="memItemLeft" align="right" valign="top"><a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGui.html#a4ef2f8d2afb2160b81f533f2e16f6977">currentTrafficState</a></td></tr>
+<tr class="separator:a4ef2f8d2afb2160b81f533f2e16f6977"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a183097cbd93f0870c5112ae4e26ffdba"></a>
@@ -118,8 +132,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a842f126cfa0b6048a9a6bf2ca7ec02c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a842f126cfa0b6048a9a6bf2ca7ec02c5">&#9670;&nbsp;</a></span>display()</h2>
+<a id="adf1fbaf0a4bea9637d14c8fd377d6dd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1fbaf0a4bea9637d14c8fd377d6dd9">&#9670;&nbsp;</a></span>display()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -129,6 +143,87 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">virtual void Gui::display </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classVehicleGui.html#a9089be336973bd1b5b6ce68d29cab31d">VehicleGui</a>, and <a class="el" href="classPedestrianGui.html#a1453c0d75296d5fb72937361a0780bca">PedestrianGui</a>.</p>
+
+</div>
+</div>
+<a id="a17cbaebeb68064153f008d9681a94374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17cbaebeb68064153f008d9681a94374">&#9670;&nbsp;</a></span>getInstanceCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int Gui::getInstanceCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classVehicleGui.html#a01b061d0a178c7da6f6ac446ba4b478a">VehicleGui</a>, and <a class="el" href="classPedestrianGui.html#a151b2444409319d8f03db0251088fe94">PedestrianGui</a>.</p>
+
+</div>
+</div>
+<a id="a97a1a6efcca40b25999710168694359f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a1a6efcca40b25999710168694359f">&#9670;&nbsp;</a></span>getTrafficDensity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float Gui::getTrafficDensity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="classVehicleGui.html#ad44da23dd3beecc53caf9c4b4640b28c">VehicleGui</a>.</p>
+
+</div>
+</div>
+<a id="a2c4c826d533c5d5fc60abffceeefb2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4c826d533c5d5fc60abffceeefb2f9">&#9670;&nbsp;</a></span>initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Gui::initialize </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>streamName</em>, </td>
@@ -142,7 +237,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -152,7 +247,56 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classVehicleGui.html#a85ff244ec6a3cf66b6090c9d083db227">VehicleGui</a>, <a class="el" href="classPedestrianGui.html#a98ea96c8fc5eb38a5c4f1095e478fd09">PedestrianGui</a>, and <a class="el" href="classCalibrateGui.html#aa9021d4a5a49ddd64d3163a218c14a42">CalibrateGui</a>.</p>
+<p>Implemented in <a class="el" href="classVehicleGui.html#a2949a0a9229434b5c69e7d84090876bc">VehicleGui</a>, <a class="el" href="classPedestrianGui.html#a66d8bdff99227270358ce7ea392b96c4">PedestrianGui</a>, and <a class="el" href="classCalibrateGui.html#a1e9c11e316500a3d60dbe13867fe633d">CalibrateGui</a>.</p>
+
+</div>
+</div>
+<a id="a73748b46d6e2a0836fb865179f4c4d35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73748b46d6e2a0836fb865179f4c4d35">&#9670;&nbsp;</a></span>setCurrentTrafficState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Gui::setCurrentTrafficState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4ef2f8d2afb2160b81f533f2e16f6977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ef2f8d2afb2160b81f533f2e16f6977">&#9670;&nbsp;</a></span>currentTrafficState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="TrafficState_8h.html#a9e775056c7949950455d376b1f368cdb">TrafficState</a> Gui::currentTrafficState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

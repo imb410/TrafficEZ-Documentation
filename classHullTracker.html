@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">0.1.5</span>
+   &#160;<span id="projectnumber">0.1.6</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -89,12 +89,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd1f2fc225f8746f586c16d4b9cdebdf"><td class="memItemLeft" align="right" valign="top">const std::unordered_map&lt; int, std::shared_ptr&lt; <a class="el" href="classHullTrackable.html">HullTrackable</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf">getTrackedHulls</a> () const</td></tr>
 <tr class="memdesc:acd1f2fc225f8746f586c16d4b9cdebdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the currently tracked hulls.  <a href="classHullTracker.html#acd1f2fc225f8746f586c16d4b9cdebdf">More...</a><br /></td></tr>
 <tr class="separator:acd1f2fc225f8746f586c16d4b9cdebdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa327bbc6e7c10b95c231d11365204ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#aaa327bbc6e7c10b95c231d11365204ef">getHullCount</a> () const</td></tr>
+<tr class="memdesc:aaa327bbc6e7c10b95c231d11365204ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current hull count.  <a href="classHullTracker.html#aaa327bbc6e7c10b95c231d11365204ef">More...</a><br /></td></tr>
+<tr class="separator:aaa327bbc6e7c10b95c231d11365204ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84d599e8b5426571d545aaa7ab1ad65"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">getTotalHullArea</a> () const</td></tr>
 <tr class="memdesc:af84d599e8b5426571d545aaa7ab1ad65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total hull area.  <a href="classHullTracker.html#af84d599e8b5426571d545aaa7ab1ad65">More...</a><br /></td></tr>
 <tr class="separator:af84d599e8b5426571d545aaa7ab1ad65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79e20418074c40ae384cbd7a4bd84f2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#a79e20418074c40ae384cbd7a4bd84f2d">calculateAllAveragedSpeed</a> () const</td></tr>
-<tr class="memdesc:a79e20418074c40ae384cbd7a4bd84f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the averaged speed of all exited tracked hulls.  <a href="classHullTracker.html#a79e20418074c40ae384cbd7a4bd84f2d">More...</a><br /></td></tr>
-<tr class="separator:a79e20418074c40ae384cbd7a4bd84f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29095f64500ad2bd03d0a8868d5a947e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#a29095f64500ad2bd03d0a8868d5a947e">getAveragedSpeed</a> () const</td></tr>
+<tr class="memdesc:a29095f64500ad2bd03d0a8868d5a947e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the averaged speed of all exited tracked hulls.  <a href="classHullTracker.html#a29095f64500ad2bd03d0a8868d5a947e">More...</a><br /></td></tr>
+<tr class="separator:a29095f64500ad2bd03d0a8868d5a947e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6831d2ba193ff9db8b57741e0216b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#a0b6831d2ba193ff9db8b57741e0216b6">resetTrackerVariables</a> ()</td></tr>
+<tr class="memdesc:a0b6831d2ba193ff9db8b57741e0216b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the variables for calculating the values of getTotalHullArea and calculateAllAveragedSpeed.  <a href="classHullTracker.html#a0b6831d2ba193ff9db8b57741e0216b6">More...</a><br /></td></tr>
+<tr class="separator:a0b6831d2ba193ff9db8b57741e0216b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff4f7b373497538efd70ba25ac1e1b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">drawTrackedHulls</a> (cv::Mat &amp;frame) const</td></tr>
 <tr class="memdesc:aff4f7b373497538efd70ba25ac1e1b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the tracked hulls.  <a href="classHullTracker.html#aff4f7b373497538efd70ba25ac1e1b62">More...</a><br /></td></tr>
 <tr class="separator:aff4f7b373497538efd70ba25ac1e1b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,26 +168,6 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79e20418074c40ae384cbd7a4bd84f2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79e20418074c40ae384cbd7a4bd84f2d">&#9670;&nbsp;</a></span>calculateAllAveragedSpeed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float HullTracker::calculateAllAveragedSpeed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Calculates the averaged speed of all exited tracked hulls. </p>
-<dl class="section return"><dt>Returns</dt><dd>Averaged speed of all exited tracked hulls (pixels/second). </dd></dl>
-
-</div>
-</div>
 <a id="ad8131bc58c8297a8d9add179303153f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad8131bc58c8297a8d9add179303153f6">&#9670;&nbsp;</a></span>drawLanesInfo()</h2>
 
@@ -252,6 +238,46 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a29095f64500ad2bd03d0a8868d5a947e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29095f64500ad2bd03d0a8868d5a947e">&#9670;&nbsp;</a></span>getAveragedSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HullTracker::getAveragedSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the averaged speed of all exited tracked hulls. </p>
+<dl class="section return"><dt>Returns</dt><dd>Averaged speed of all exited tracked hulls (pixels/second). </dd></dl>
+
+</div>
+</div>
+<a id="aaa327bbc6e7c10b95c231d11365204ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa327bbc6e7c10b95c231d11365204ef">&#9670;&nbsp;</a></span>getHullCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int HullTracker::getHullCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current hull count. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of hulls (vehicles) that crossed the boundary line. </dd></dl>
+
+</div>
+</div>
 <a id="af84d599e8b5426571d545aaa7ab1ad65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af84d599e8b5426571d545aaa7ab1ad65">&#9670;&nbsp;</a></span>getTotalHullArea()</h2>
 
@@ -315,6 +341,25 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a0b6831d2ba193ff9db8b57741e0216b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6831d2ba193ff9db8b57741e0216b6">&#9670;&nbsp;</a></span>resetTrackerVariables()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HullTracker::resetTrackerVariables </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reset the variables for calculating the values of getTotalHullArea and calculateAllAveragedSpeed. </p>
 
 </div>
 </div>

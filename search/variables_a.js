@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['varthreshold_425',['varThreshold',['../structMOG2BackgroundSubtractionParams.html#a1d00e33f7c968a49e21d7601dfa7004b',1,'MOG2BackgroundSubtractionParams']]],
-  ['varthresholdgen_426',['varThresholdGen',['../structMOG2BackgroundSubtractionParams.html#a5c5b42b4d8281c525070530e7852fe6a',1,'MOG2BackgroundSubtractionParams']]]
+  ['shadowvalue_548',['shadowValue',['../structMOG2BackgroundSubtractionParams.html#a5f6c3342e3eccf798365d2cd9477ada9',1,'MOG2BackgroundSubtractionParams']]],
+  ['sigma_549',['sigma',['../structGaussianBlurParams.html#a8d2f9b2cd18ecd49fe4b0ca9b44d8c76',1,'GaussianBlurParams']]]
 ];

@@ -1,12 +1,17 @@
 var searchData=
 [
-  ['initcalibrationpoints_83',['initCalibrationPoints',['../classCalibrateVideoStreamer.html#a5d3806cc282fdd7042485bb972db31ef',1,'CalibrateVideoStreamer']]],
-  ['initdetectionboundaries_84',['initDetectionBoundaries',['../classHullDetector.html#a3ba7016a50aac51a7e8389a312f4ea03',1,'HullDetector']]],
-  ['initexitboundaryline_85',['initExitBoundaryLine',['../classHullTracker.html#ac766bc1e8819e062085125791babc68c',1,'HullTracker']]],
-  ['initialize_86',['initialize',['../classTransformPerspective.html#a58de729b2dfb70cfbc1b96676eb97b15',1,'TransformPerspective::initialize()'],['../classTrimPerspective.html#a9bb0ff516ffdcbbb5ca7631aab34015e',1,'TrimPerspective::initialize()'],['../classWarpPerspective.html#a43d718174580c8073f7184e34a4dd7a0',1,'WarpPerspective::initialize()']]],
-  ['initializeperspectivetransform_87',['initializePerspectiveTransform',['../classVideoStreamer.html#ab431d5fb50bd95cde00f5f4f559dd904',1,'VideoStreamer']]],
-  ['initializepreview_88',['initializePreview',['../classCalibrateVideoStreamer.html#a8998a8bc74a71a13a3dddbb0e68cdaca',1,'CalibrateVideoStreamer']]],
-  ['ipreprocessstep_89',['IPreprocessStep',['../classIPreprocessStep.html',1,'']]],
-  ['ipreprocessstep_2eh_90',['IPreprocessStep.h',['../IPreprocessStep_8h.html',1,'']]],
-  ['iterations_91',['iterations',['../structDilationParams.html#a171f2065250a53d67241afe4183c96f0',1,'DilationParams::iterations()'],['../structErosionParams.html#aae969ab9993a3dbf1906060239572500',1,'ErosionParams::iterations()']]]
+  ['havesetfourpoints_91',['haveSetFourPoints',['../classCalibrateVideoStreamer.html#ae29ce077f3a0cc8428da2af5bca3fb72',1,'CalibrateVideoStreamer']]],
+  ['headless_92',['Headless',['../classHeadless.html',1,'']]],
+  ['headless_93',['HEADLESS',['../Watcher_8h.html#ac9e546db27bb4f76f47d7e25f24abb88a8fbd60bd137c7b5abc38d710feb34df5',1,'Watcher.h']]],
+  ['headless_2eh_94',['Headless.h',['../Headless_8h.html',1,'']]],
+  ['history_95',['history',['../structMOG2BackgroundSubtractionParams.html#a6f40a6c505ed162483692451fe5bd766',1,'MOG2BackgroundSubtractionParams']]],
+  ['hulldetector_96',['HullDetector',['../classHullDetector.html',1,'HullDetector'],['../classHullDetector.html#a62079eea08d7bd0269bf4ecd1151a2e8',1,'HullDetector::HullDetector()']]],
+  ['hulldetector_2ecpp_97',['HullDetector.cpp',['../HullDetector_8cpp.html',1,'']]],
+  ['hulldetector_2eh_98',['HullDetector.h',['../HullDetector_8h.html',1,'']]],
+  ['hulltrackable_99',['HullTrackable',['../classHullTrackable.html#ac466ed3e0d7e898e3f4be756448e04f6',1,'HullTrackable::HullTrackable()'],['../classHullTrackable.html',1,'HullTrackable']]],
+  ['hulltrackable_2ecpp_100',['HullTrackable.cpp',['../HullTrackable_8cpp.html',1,'']]],
+  ['hulltrackable_2eh_101',['HullTrackable.h',['../HullTrackable_8h.html',1,'']]],
+  ['hulltracker_102',['HullTracker',['../classHullTracker.html',1,'HullTracker'],['../classHullTracker.html#aa8eefe50710a79fec49e191e43ff62a4',1,'HullTracker::HullTracker()']]],
+  ['hulltracker_2ecpp_103',['HullTracker.cpp',['../HullTracker_8cpp.html',1,'']]],
+  ['hulltracker_2eh_104',['HullTracker.h',['../HullTracker_8h.html',1,'']]]
 ];

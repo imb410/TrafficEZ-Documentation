@@ -1,11 +1,15 @@
 var searchData=
 [
-  ['_7ecalibratevideostreamer_206',['~CalibrateVideoStreamer',['../classCalibrateVideoStreamer.html#aecbdde095ae38b208a324ef044a55721',1,'CalibrateVideoStreamer']]],
-  ['_7egui_207',['~Gui',['../classGui.html#a183097cbd93f0870c5112ae4e26ffdba',1,'Gui']]],
-  ['_7eheadless_208',['~Headless',['../classHeadless.html#a28ea704b3740752d890f462ed614e991',1,'Headless']]],
-  ['_7eipreprocessstep_209',['~IPreprocessStep',['../classIPreprocessStep.html#ace6451310631e5f6f30c190108e0b969',1,'IPreprocessStep']]],
-  ['_7epipelinetrackbar_210',['~PipelineTrackbar',['../classPipelineTrackbar.html#a549520242fb7efdd09ef3f2f07a7fafc',1,'PipelineTrackbar']]],
-  ['_7etransformperspective_211',['~TransformPerspective',['../classTransformPerspective.html#aa1d297eaac1b940161a377170b406951',1,'TransformPerspective']]],
-  ['_7evideostreamer_212',['~VideoStreamer',['../classVideoStreamer.html#aa53d85b6875254e40fa1a91de39b01de',1,'VideoStreamer']]],
-  ['_7ewatcher_213',['~Watcher',['../classWatcher.html#a827395b5ad5c8bd6cbac0464568429f2',1,'Watcher']]]
+  ['warpperspective_256',['WarpPerspective',['../classWarpPerspective.html',1,'WarpPerspective'],['../classWarpPerspective.html#a4cecf069b41a7c791705d3b0cc16080a',1,'WarpPerspective::WarpPerspective()']]],
+  ['warpperspective_2ecpp_257',['WarpPerspective.cpp',['../WarpPerspective_8cpp.html',1,'']]],
+  ['warpperspective_2eh_258',['WarpPerspective.h',['../WarpPerspective_8h.html',1,'']]],
+  ['watcher_259',['Watcher',['../classWatcher.html',1,'']]],
+  ['watcher_2eh_260',['Watcher.h',['../Watcher_8h.html',1,'']]],
+  ['watcherfactory_261',['WatcherFactory',['../classWatcherFactory.html',1,'']]],
+  ['watcherfactory_2ecpp_262',['WatcherFactory.cpp',['../WatcherFactory_8cpp.html',1,'']]],
+  ['watcherfactory_2eh_263',['WatcherFactory.h',['../WatcherFactory_8h.html',1,'']]],
+  ['watcherspawner_264',['WatcherSpawner',['../classWatcherSpawner.html',1,'']]],
+  ['watcherspawner_2ecpp_265',['WatcherSpawner.cpp',['../WatcherSpawner_8cpp.html',1,'']]],
+  ['watcherspawner_2eh_266',['WatcherSpawner.h',['../WatcherSpawner_8h.html',1,'']]],
+  ['watchertype_267',['WatcherType',['../WatcherFactory_8h.html#aa025135452b1839d6a431e3041827350',1,'WatcherFactory.h']]]
 ];
