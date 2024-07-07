@@ -5,14 +5,14 @@
 <area shape="rect" id="node15" href="$VehicleWatcher_8h.html" title=" " alt="" coords="647,109,878,165"/>
 <area shape="rect" id="node3" href="$CalibrateWatcher_8cpp.html" title=" " alt="" coords="5,213,248,269"/>
 <area shape="rect" id="node4" href="$WatcherFactory_8h.html" title=" " alt="" coords="272,221,512,262"/>
-<area shape="rect" id="node5" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="150,317,405,359"/>
-<area shape="rect" id="node6" href="$WatcherSpawner_8h.html" title=" " alt="" coords="429,317,584,359"/>
-<area shape="rect" id="node7" href="$ChildProcess_8h.html" title=" " alt="" coords="302,407,469,448"/>
-<area shape="rect" id="node11" href="$TrafficManager_8cpp.html" title=" " alt="" coords="369,585,517,627"/>
-<area shape="rect" id="node12" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="545,407,706,448"/>
-<area shape="rect" id="node8" href="$ChildProcess_8cpp.html" title=" " alt="" coords="302,496,469,537"/>
-<area shape="rect" id="node9" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="111,496,278,537"/>
-<area shape="rect" id="node10" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="107,585,282,627"/>
+<area shape="rect" id="node5" href="$WatcherSpawner_8h.html" title=" " alt="" coords="200,317,355,359"/>
+<area shape="rect" id="node12" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="379,317,634,359"/>
+<area shape="rect" id="node6" href="$TrafficManager_8cpp.html" title=" " alt="" coords="146,585,294,627"/>
+<area shape="rect" id="node7" href="$ChildProcess_8h.html" title=" " alt="" coords="194,407,361,448"/>
+<area shape="rect" id="node11" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="385,407,546,448"/>
+<area shape="rect" id="node8" href="$ChildProcess_8cpp.html" title=" " alt="" coords="194,496,361,537"/>
+<area shape="rect" id="node9" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="385,496,551,537"/>
+<area shape="rect" id="node10" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="381,585,555,627"/>
 <area shape="rect" id="node14" href="$PedestrianWatcher_8cpp.html" title=" " alt="" coords="536,213,763,269"/>
 <area shape="rect" id="node16" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="787,213,1018,269"/>
 </map>
