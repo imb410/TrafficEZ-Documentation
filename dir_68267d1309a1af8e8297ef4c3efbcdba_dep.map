@@ -1,15 +1,16 @@
 <map id="src" name="src">
-<area shape="rect" id="node6" href="dir_516e4506ba27c1cebceeb2b5632306a0.html" title="TrafficManager" alt="" coords="95,123,214,171"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000000_000015.html" title="1" alt="" coords="158,97,168,112"/>
+<area shape="rect" id="node6" href="dir_516e4506ba27c1cebceeb2b5632306a0.html" title="TrafficManager" alt="" coords="170,123,289,171"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000000_000015.html" title="1" alt="" coords="233,97,242,112"/>
 <area shape="rect" id="node2" href="dir_bebe1dd7a263a782fbcea6c2f7d54c41.html" title="HullRecognitionModule" alt="" coords="27,411,200,459"/>
-<area shape="rect" id="node3" href="dir_53854aaaf41e5967604e043130b51a7f.html" title="MultiprocessTraffic" alt="" coords="83,219,227,267"/>
+<area shape="rect" id="node3" href="dir_53854aaaf41e5967604e043130b51a7f.html" title="MultiprocessTraffic" alt="" coords="96,219,240,267"/>
 <area shape="rect" id="node4" href="dir_fe71ea9b2875ef06e19538bf7a571046.html" title="RelayController" alt="" coords="93,315,216,363"/>
-<area shape="rect" id="edge8-headlabel" href="dir_000012_000013.html" title="1" alt="" coords="149,289,159,303"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000012_000013.html" title="1" alt="" coords="155,290,164,304"/>
 <area shape="rect" id="node8" href="dir_a0025c2901f4644c9c66c7428f38e9a0.html" title="WatcherSpawner" alt="" coords="240,315,371,363"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000012_000018.html" title="1" alt="" coords="253,290,262,305"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000013_000012.html" title="1" alt="" coords="151,278,160,293"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000012_000018.html" title="1" alt="" coords="257,290,266,305"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000013_000012.html" title="1" alt="" coords="158,277,167,292"/>
 <area shape="rect" id="node5" href="dir_ed1f63c90de464537f5c2afd2dfaf6f9.html" title="SegmentationModule" alt="" coords="225,411,386,459"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000015_000012.html" title="1" alt="" coords="158,193,168,208"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000015_000012.html" title="1" alt="" coords="195,201,205,215"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000015_000018.html" title="1" alt="" coords="293,287,302,302"/>
 <area shape="rect" id="node7" href="dir_5e27618d6da3020998d02e36cb4a3700.html" title="VideoStreamer" alt="" coords="410,411,529,459"/>
 <area shape="rect" id="edge2-headlabel" href="dir_000018_000001.html" title="9" alt="" coords="176,403,185,417"/>
 <area shape="rect" id="edge3-headlabel" href="dir_000018_000014.html" title="8" alt="" coords="309,385,318,400"/>
