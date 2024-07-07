@@ -1,13 +1,13 @@
 <map id="src/WatcherSpawner/WatcherFactory/VehicleWatcher/VehicleWatcher.h" name="src/WatcherSpawner/WatcherFactory/VehicleWatcher/VehicleWatcher.h">
-<area shape="rect" id="node1" title=" " alt="" coords="135,5,365,61"/>
-<area shape="rect" id="node2" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="5,109,236,165"/>
-<area shape="rect" id="node3" href="$WatcherFactory_8h.html" title=" " alt="" coords="261,117,501,158"/>
-<area shape="rect" id="node4" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="139,213,393,255"/>
-<area shape="rect" id="node5" href="$WatcherSpawner_8h.html" title=" " alt="" coords="418,213,573,255"/>
-<area shape="rect" id="node6" href="$ChildProcess_8h.html" title=" " alt="" coords="291,303,457,344"/>
-<area shape="rect" id="node10" href="$TrafficManager_8cpp.html" title=" " alt="" coords="421,481,569,523"/>
-<area shape="rect" id="node11" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="533,303,695,344"/>
-<area shape="rect" id="node7" href="$ChildProcess_8cpp.html" title=" " alt="" coords="100,392,267,433"/>
-<area shape="rect" id="node8" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="291,392,457,433"/>
-<area shape="rect" id="node9" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="223,481,397,523"/>
+<area shape="rect" id="node1" title=" " alt="" coords="269,5,500,61"/>
+<area shape="rect" id="node2" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="140,109,371,165"/>
+<area shape="rect" id="node3" href="$WatcherFactory_8h.html" title=" " alt="" coords="395,117,635,158"/>
+<area shape="rect" id="node4" href="$WatcherSpawner_8h.html" title=" " alt="" coords="323,213,478,255"/>
+<area shape="rect" id="node11" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="503,213,757,255"/>
+<area shape="rect" id="node5" href="$ChildProcess_8h.html" title=" " alt="" coords="196,303,363,344"/>
+<area shape="rect" id="node9" href="$TrafficManager_8cpp.html" title=" " alt="" coords="327,481,475,523"/>
+<area shape="rect" id="node10" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="439,303,600,344"/>
+<area shape="rect" id="node6" href="$ChildProcess_8cpp.html" title=" " alt="" coords="5,392,172,433"/>
+<area shape="rect" id="node7" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="196,392,363,433"/>
+<area shape="rect" id="node8" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="128,481,303,523"/>
 </map>
