@@ -2,12 +2,12 @@
 <area shape="rect" id="node1" title=" " alt="" coords="137,5,380,61"/>
 <area shape="rect" id="node2" href="$CalibrateWatcher_8cpp.html" title=" " alt="" coords="5,109,248,165"/>
 <area shape="rect" id="node3" href="$WatcherFactory_8h.html" title=" " alt="" coords="272,117,512,158"/>
-<area shape="rect" id="node4" href="$WatcherSpawner_8h.html" title=" " alt="" coords="200,213,355,255"/>
-<area shape="rect" id="node11" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="379,213,634,255"/>
-<area shape="rect" id="node5" href="$TrafficManager_8cpp.html" title=" " alt="" coords="146,481,294,523"/>
-<area shape="rect" id="node6" href="$ChildProcess_8h.html" title=" " alt="" coords="194,303,361,344"/>
-<area shape="rect" id="node10" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="385,303,546,344"/>
-<area shape="rect" id="node7" href="$ChildProcess_8cpp.html" title=" " alt="" coords="194,392,361,433"/>
-<area shape="rect" id="node8" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="385,392,551,433"/>
-<area shape="rect" id="node9" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="381,481,555,523"/>
+<area shape="rect" id="node4" href="$WatcherFactory_8cpp.html" title=" " alt="" coords="150,213,405,255"/>
+<area shape="rect" id="node5" href="$WatcherSpawner_8h.html" title=" " alt="" coords="429,213,584,255"/>
+<area shape="rect" id="node6" href="$ChildProcess_8h.html" title=" " alt="" coords="302,303,469,344"/>
+<area shape="rect" id="node10" href="$TrafficManager_8cpp.html" title=" " alt="" coords="433,481,581,523"/>
+<area shape="rect" id="node11" href="$WatcherSpawner_8cpp.html" title=" " alt="" coords="545,303,706,344"/>
+<area shape="rect" id="node7" href="$ChildProcess_8cpp.html" title=" " alt="" coords="111,392,278,433"/>
+<area shape="rect" id="node8" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="302,392,469,433"/>
+<area shape="rect" id="node9" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="234,481,409,523"/>
 </map>
