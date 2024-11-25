@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.0.2</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -122,11 +122,13 @@ $(function() {
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                            <a class="code" href="classWatcher.html">Watcher</a>* watcher,</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                            <span class="keywordtype">bool</span>&amp; isStateGreen);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> sendDensityToParent(<span class="keywordtype">float</span> density);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> closeUnusedPipes();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> sendDensityAndVehiclesToParent(</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">float</span> density, std::unordered_map&lt;std::string, int&gt; vehicles = {});</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> closeUnusedPipes();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aPhaseMessageType_8h_html"><div class="ttname"><a href="PhaseMessageType_8h.html">PhaseMessageType.h</a></div></div>
 <div class="ttc" id="aPhaseMessageType_8h_html_a6c260a5b9e3db8e348195b5865fc5b07"><div class="ttname"><a href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a></div><div class="ttdeci">PhaseMessageType</div><div class="ttdef"><b>Definition:</b> PhaseMessageType.h:8</div></div>
 <div class="ttc" id="aPipe_8h_html"><div class="ttname"><a href="Pipe_8h.html">Pipe.h</a></div></div>
@@ -137,7 +139,7 @@ $(function() {
 <div class="ttc" id="aclassChildProcess_html_a3dd124e02fd9cbe2211b5c1ee52e5b33"><div class="ttname"><a href="classChildProcess.html#a3dd124e02fd9cbe2211b5c1ee52e5b33">ChildProcess::runPedestrian</a></div><div class="ttdeci">void runPedestrian(bool debug, const std::string &amp;streamConfig, const std::string &amp;streamLink)</div><div class="ttdef"><b>Definition:</b> ChildProcess.cpp:75</div></div>
 <div class="ttc" id="aclassChildProcess_html_a94a514098b3ce3defe4bf8b5603c6663"><div class="ttname"><a href="classChildProcess.html#a94a514098b3ce3defe4bf8b5603c6663">ChildProcess::runVehicle</a></div><div class="ttdeci">void runVehicle(bool debug, const std::string &amp;streamConfig, const std::string &amp;streamLink)</div><div class="ttdef"><b>Definition:</b> ChildProcess.cpp:43</div></div>
 <div class="ttc" id="aclassWatcherSpawner_html"><div class="ttname"><a href="classWatcherSpawner.html">WatcherSpawner</a></div><div class="ttdef"><b>Definition:</b> WatcherSpawner.h:7</div></div>
-<div class="ttc" id="aclassWatcher_html"><div class="ttname"><a href="classWatcher.html">Watcher</a></div><div class="ttdef"><b>Definition:</b> Watcher.h:15</div></div>
+<div class="ttc" id="aclassWatcher_html"><div class="ttname"><a href="classWatcher.html">Watcher</a></div><div class="ttdef"><b>Definition:</b> Watcher.h:16</div></div>
 <div class="ttc" id="astructPipe_html"><div class="ttname"><a href="structPipe.html">Pipe</a></div><div class="ttdef"><b>Definition:</b> Pipe.h:5</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

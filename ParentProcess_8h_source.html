@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.0.2</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -74,88 +74,117 @@ $(function() {
 <a href="ParentProcess_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PARENT_PROCESS_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define PARENT_PROCESS_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PhaseMessageType_8h.html">PhaseMessageType.h</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Pipe_8h.html">Pipe.h</a>&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="RelayController_8h.html">RelayController.h</a>&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classParentProcess.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classParentProcess.html">ParentProcess</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classParentProcess.html#ae97586f895baddd5a9f7db8dcbbec47e">ParentProcess</a>(<span class="keywordtype">int</span> numVehicle,</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                  <span class="keywordtype">int</span> numPedestrian,</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                  std::vector&lt;Pipe&gt;&amp; pipesParentToChild,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                  std::vector&lt;Pipe&gt;&amp; pipesChildToParent,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                  std::vector&lt;std::vector&lt;PhaseMessageType&gt;&gt;&amp; phases,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                  std::vector&lt;int&gt;&amp; phaseDurations,</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                  <span class="keywordtype">bool</span> verbose = <span class="keyword">false</span>,</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                  <span class="keywordtype">float</span> densityMultiplierGreenPhase = 10.0f,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                  <span class="keywordtype">float</span> densityMultiplierRedPhase = 0.3f,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                  <span class="keywordtype">float</span> densityMin = 0.0f,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                  <span class="keywordtype">float</span> densityMax = 50.0f,</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                  <span class="keywordtype">int</span> minPhaseDurationMs = 5000,</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                  <span class="keywordtype">int</span> minPedestrianDurationMs = 25000,</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                  std::string relayUrl = <span class="stringliteral">&quot;http://192.168.1.4/30000/&quot;</span>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">run</a>();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> BUFFER_SIZE = 128;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">bool</span> verbose;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="classRelayController.html">RelayController</a> relay;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    std::string relayUrl;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">float</span> densityMultiplierGreenPhase;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">float</span> densityMultiplierRedPhase;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">float</span> densityMin;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">float</span> densityMax;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="MultiprocessTraffic_8h.html">MultiprocessTraffic.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="PhaseMessageType_8h.html">PhaseMessageType.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Pipe_8h.html">Pipe.h</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Reports_8h.html">Reports.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="TelnetRelayController_8h.html">TelnetRelayController.h</a>&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;json.hpp&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;sstream&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classParentProcess.html">   13</a></span>&#160;<span class="keyword">class </span><a class="code" href="classParentProcess.html">ParentProcess</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="classParentProcess.html#ae4ff26e9edfefeca0eb258a0442a9cd1">ParentProcess</a>(<span class="keywordtype">int</span> numVehicle,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                  <span class="keywordtype">int</span> numPedestrian,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                  std::vector&lt;Pipe&gt;&amp; pipesParentToChild,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                  std::vector&lt;Pipe&gt;&amp; pipesChildToParent,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                  std::vector&lt;std::vector&lt;PhaseMessageType&gt;&gt;&amp; phases,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                  std::vector&lt;int&gt;&amp; phaseDurations,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                  <span class="keywordtype">bool</span> verbose = <span class="keyword">false</span>,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                  <span class="keywordtype">float</span> densityMultiplierGreenPhase = 10.0f,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                  <span class="keywordtype">float</span> densityMultiplierRedPhase = 0.3f,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                  <span class="keywordtype">float</span> densityMin = 0.0f,</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                  <span class="keywordtype">float</span> densityMax = 50.0f,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                  <span class="keywordtype">int</span> minPhaseDurationMs = 5000,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                  <span class="keywordtype">int</span> minPedestrianDurationMs = 25000,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                  std::string relayUrl = <span class="stringliteral">&quot;192.168.1.5&quot;</span>,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                  <span class="keywordtype">int</span> subLocationId = 1,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                  <span class="keywordtype">int</span> junctionId = 1,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                  std::string junctionName = <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">run</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">static</span> constexpr <span class="keywordtype">int</span> BUFFER_SIZE = 128;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classTelnetRelayController.html">TelnetRelayController</a>&amp; telnetRelay = <a class="code" href="classTelnetRelayController.html#aed3cddb558bb7e670c55befcc1512662">TelnetRelayController::getInstance</a>();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="classReports.html">Reports</a>&amp; report = <a class="code" href="classReports.html#a1124c163e64e64fb0ad94d93a4fbb21a">Reports::getInstance</a>();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> minPhaseDurationMs;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> minPedestrianDurationMs;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> fullCycleDurationMs;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> numVehicle;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> numPedestrian;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> numChildren;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    std::vector&lt;Pipe&gt;&amp; pipesParentToChild;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    std::vector&lt;Pipe&gt;&amp; pipesChildToParent;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    std::vector&lt;std::vector&lt;PhaseMessageType&gt;&gt;&amp; phases;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    std::vector&lt;int&gt;&amp; phaseDurations;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    std::vector&lt;int&gt; originalPhaseDurations;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    std::vector&lt;float&gt; phaseRatio;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">bool</span> verbose;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">int</span> cycle;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">int</span> subLocationId;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> junctionId;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    std::string junctionName;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    std::string relayUrl;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">float</span> densityMultiplierGreenPhase;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">float</span> densityMultiplierRedPhase;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">float</span> densityMin;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">float</span> densityMax;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">int</span> minPhaseDurationMs;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> minPedestrianDurationMs;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> fullCycleDurationMs;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> sendPhaseMessagesToChildren(<span class="keywordtype">int</span> phaseIndex);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> receivePrevDensitiesFromChildren(</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">int</span> previousPhaseIndex,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">bool</span> readDensityFromChild(<span class="keywordtype">int</span> childIndex, <span class="keywordtype">float</span>&amp; density);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">void</span> processDensityByPhaseType(<a class="code" href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a> phaseType, <span class="keywordtype">float</span>&amp; density);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> handlePhaseTimer(<span class="keywordtype">int</span> phaseIndex);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">void</span> transitionToNextPhase(<span class="keywordtype">int</span>&amp; phaseIndex,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                               std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> numVehicle;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> numPedestrian;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> numChildren;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    std::vector&lt;Pipe&gt;&amp; pipesParentToChild;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    std::vector&lt;Pipe&gt;&amp; pipesChildToParent;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    std::vector&lt;std::vector&lt;PhaseMessageType&gt;&gt;&amp; phases;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    std::vector&lt;int&gt;&amp; phaseDurations;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    std::vector&lt;int&gt; originalPhaseDurations;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    std::vector&lt;float&gt; phaseRatio;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    setDefaultPhaseDensities(std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    updatePhaseDurations(<span class="keyword">const</span> std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">void</span> closeUnusedPipes();</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">void</span> sendPhaseMessagesToChildren(<span class="keywordtype">int</span> phaseIndex);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> receivePrevDataFromChildren(</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">int</span> phaseIndex,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        std::vector&lt;std::vector&lt;std::unordered_map&lt;std::string, int&gt;&gt;&gt;&amp;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            phaseVehicles);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">bool</span> readDataFromChild(<span class="keywordtype">int</span> childIndex,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                           <span class="keywordtype">float</span>&amp; density,</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                           std::unordered_map&lt;std::string, int&gt;&amp; vehicles);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> processDensityByPhaseType(<a class="code" href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a> phaseType, <span class="keywordtype">float</span>&amp; density);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> handlePhaseTimer(<span class="keywordtype">int</span> phaseIndex);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> transitionToNextPhase(</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordtype">int</span>&amp; phaseIndex,</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        std::vector&lt;std::vector&lt;std::unordered_map&lt;std::string, int&gt;&gt;&gt;&amp;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            phaseVehicles);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">void</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    setDefaultPhaseDensities(std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> updatePhaseDurations(</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::vector&lt;float&gt;&gt;&amp; phaseDensities,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        std::vector&lt;std::vector&lt;std::unordered_map&lt;std::string, int&gt;&gt;&gt;&amp;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            phaseVehicles);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> closeUnusedPipes();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;};</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aMultiprocessTraffic_8h_html"><div class="ttname"><a href="MultiprocessTraffic_8h.html">MultiprocessTraffic.h</a></div></div>
 <div class="ttc" id="aPhaseMessageType_8h_html"><div class="ttname"><a href="PhaseMessageType_8h.html">PhaseMessageType.h</a></div></div>
 <div class="ttc" id="aPhaseMessageType_8h_html_a6c260a5b9e3db8e348195b5865fc5b07"><div class="ttname"><a href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a></div><div class="ttdeci">PhaseMessageType</div><div class="ttdef"><b>Definition:</b> PhaseMessageType.h:8</div></div>
 <div class="ttc" id="aPipe_8h_html"><div class="ttname"><a href="Pipe_8h.html">Pipe.h</a></div></div>
-<div class="ttc" id="aRelayController_8h_html"><div class="ttname"><a href="RelayController_8h.html">RelayController.h</a></div></div>
-<div class="ttc" id="aclassParentProcess_html"><div class="ttname"><a href="classParentProcess.html">ParentProcess</a></div><div class="ttdef"><b>Definition:</b> ParentProcess.h:10</div></div>
-<div class="ttc" id="aclassParentProcess_html_a71b517257c76d7481a059aa5315b3345"><div class="ttname"><a href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">ParentProcess::run</a></div><div class="ttdeci">void run()</div><div class="ttdef"><b>Definition:</b> ParentProcess.cpp:57</div></div>
-<div class="ttc" id="aclassParentProcess_html_ae97586f895baddd5a9f7db8dcbbec47e"><div class="ttname"><a href="classParentProcess.html#ae97586f895baddd5a9f7db8dcbbec47e">ParentProcess::ParentProcess</a></div><div class="ttdeci">ParentProcess(int numVehicle, int numPedestrian, std::vector&lt; Pipe &gt; &amp;pipesParentToChild, std::vector&lt; Pipe &gt; &amp;pipesChildToParent, std::vector&lt; std::vector&lt; PhaseMessageType &gt;&gt; &amp;phases, std::vector&lt; int &gt; &amp;phaseDurations, bool verbose=false, float densityMultiplierGreenPhase=10.0f, float densityMultiplierRedPhase=0.3f, float densityMin=0.0f, float densityMax=50.0f, int minPhaseDurationMs=5000, int minPedestrianDurationMs=25000, std::string relayUrl=&quot;http://192.168.1.4/30000/&quot;)</div><div class="ttdef"><b>Definition:</b> ParentProcess.cpp:11</div></div>
-<div class="ttc" id="aclassRelayController_html"><div class="ttname"><a href="classRelayController.html">RelayController</a></div><div class="ttdef"><b>Definition:</b> RelayController.h:9</div></div>
+<div class="ttc" id="aReports_8h_html"><div class="ttname"><a href="Reports_8h.html">Reports.h</a></div></div>
+<div class="ttc" id="aTelnetRelayController_8h_html"><div class="ttname"><a href="TelnetRelayController_8h.html">TelnetRelayController.h</a></div></div>
+<div class="ttc" id="aclassParentProcess_html"><div class="ttname"><a href="classParentProcess.html">ParentProcess</a></div><div class="ttdef"><b>Definition:</b> ParentProcess.h:14</div></div>
+<div class="ttc" id="aclassParentProcess_html_a71b517257c76d7481a059aa5315b3345"><div class="ttname"><a href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">ParentProcess::run</a></div><div class="ttdeci">void run()</div><div class="ttdef"><b>Definition:</b> ParentProcess.cpp:63</div></div>
+<div class="ttc" id="aclassParentProcess_html_ae4ff26e9edfefeca0eb258a0442a9cd1"><div class="ttname"><a href="classParentProcess.html#ae4ff26e9edfefeca0eb258a0442a9cd1">ParentProcess::ParentProcess</a></div><div class="ttdeci">ParentProcess(int numVehicle, int numPedestrian, std::vector&lt; Pipe &gt; &amp;pipesParentToChild, std::vector&lt; Pipe &gt; &amp;pipesChildToParent, std::vector&lt; std::vector&lt; PhaseMessageType &gt;&gt; &amp;phases, std::vector&lt; int &gt; &amp;phaseDurations, bool verbose=false, float densityMultiplierGreenPhase=10.0f, float densityMultiplierRedPhase=0.3f, float densityMin=0.0f, float densityMax=50.0f, int minPhaseDurationMs=5000, int minPedestrianDurationMs=25000, std::string relayUrl=&quot;192.168.1.5&quot;, int subLocationId=1, int junctionId=1, std::string junctionName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> ParentProcess.cpp:11</div></div>
+<div class="ttc" id="aclassReports_html"><div class="ttname"><a href="classReports.html">Reports</a></div><div class="ttdef"><b>Definition:</b> Reports.h:9</div></div>
+<div class="ttc" id="aclassReports_html_a1124c163e64e64fb0ad94d93a4fbb21a"><div class="ttname"><a href="classReports.html#a1124c163e64e64fb0ad94d93a4fbb21a">Reports::getInstance</a></div><div class="ttdeci">static Reports &amp; getInstance(const std::string &amp;httpUrl=&quot;&quot;, const std::string &amp;tSecretKey=&quot;&quot;, const int &amp;junctionId=1, const std::string junctionName=&quot;&quot;, bool verboseMode=false)</div><div class="ttdef"><b>Definition:</b> Reports.h:11</div></div>
+<div class="ttc" id="aclassTelnetRelayController_html"><div class="ttname"><a href="classTelnetRelayController.html">TelnetRelayController</a></div><div class="ttdef"><b>Definition:</b> TelnetRelayController.h:18</div></div>
+<div class="ttc" id="aclassTelnetRelayController_html_aed3cddb558bb7e670c55befcc1512662"><div class="ttname"><a href="classTelnetRelayController.html#aed3cddb558bb7e670c55befcc1512662">TelnetRelayController::getInstance</a></div><div class="ttdeci">static TelnetRelayController &amp; getInstance(const std::string &amp;ip=&quot;&quot;, const std::string &amp;user=&quot;&quot;, const std::string &amp;pass=&quot;&quot;, const std::vector&lt; std::vector&lt; PhaseMessageType &gt;&gt; &amp;phaseData={}, bool verboseMode=false)</div><div class="ttdef"><b>Definition:</b> TelnetRelayController.h:20</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

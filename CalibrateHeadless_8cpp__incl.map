@@ -1,8 +1,9 @@
 <map id="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateHeadless.cpp" name="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateHeadless.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="88,5,331,61"/>
-<area shape="rect" id="node2" href="$CalibrateHeadless_8h.html" title=" " alt="" coords="75,109,229,136"/>
-<area shape="rect" id="node5" title=" " alt="" coords="224,259,304,285"/>
-<area shape="rect" id="node3" href="$Headless_8h.html" title=" " alt="" coords="115,184,210,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="223,5,465,61"/>
+<area shape="rect" id="node2" href="$CalibrateHeadless_8h.html" title=" " alt="" coords="210,109,363,136"/>
+<area shape="rect" id="node5" title=" " alt="" coords="368,259,448,285"/>
+<area shape="rect" id="node3" href="$Headless_8h.html" title=" " alt="" coords="234,184,329,211"/>
 <area shape="rect" id="node4" href="$TrafficState_8h.html" title=" " alt="" coords="5,259,112,285"/>
 <area shape="rect" id="node6" title=" " alt="" coords="136,259,195,285"/>
+<area shape="rect" id="node7" title=" " alt="" coords="219,259,343,285"/>
 </map>

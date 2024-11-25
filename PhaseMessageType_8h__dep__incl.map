@@ -1,13 +1,15 @@
 <map id="src/MultiprocessTraffic/PhaseMessageType.h" name="src/MultiprocessTraffic/PhaseMessageType.h">
-<area shape="rect" id="node1" title=" " alt="" coords="335,5,501,47"/>
-<area shape="rect" id="node2" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="101,273,268,315"/>
-<area shape="rect" id="node5" href="$ChildProcess_8h.html" title=" " alt="" coords="137,95,304,136"/>
-<area shape="rect" id="node7" href="$PhaseMessageType_8cpp.html" title=" " alt="" coords="328,95,508,136"/>
-<area shape="rect" id="node8" href="$RelayController_8h.html" title=" " alt="" coords="533,95,679,136"/>
-<area shape="rect" id="node10" href="$ParentProcess_8h.html" title=" " alt="" coords="612,184,779,225"/>
-<area shape="rect" id="node3" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="5,363,180,404"/>
-<area shape="rect" id="node4" href="$TrafficManager_8cpp.html" title=" " alt="" coords="204,363,352,404"/>
-<area shape="rect" id="node6" href="$ChildProcess_8cpp.html" title=" " alt="" coords="223,184,389,225"/>
-<area shape="rect" id="node9" href="$RelayController_8cpp.html" title=" " alt="" coords="435,184,588,225"/>
-<area shape="rect" id="node11" href="$ParentProcess_8cpp.html" title=" " alt="" coords="612,273,779,315"/>
+<area shape="rect" id="node1" title=" " alt="" coords="246,5,413,47"/>
+<area shape="rect" id="node2" href="$ChildProcess_8h.html" title=" " alt="" coords="100,95,266,136"/>
+<area shape="rect" id="node4" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="216,184,382,225"/>
+<area shape="rect" id="node5" href="$ParentProcess_8h.html" title=" " alt="" coords="216,273,382,315"/>
+<area shape="rect" id="node9" href="$PhaseMessageType_8cpp.html" title=" " alt="" coords="393,95,573,136"/>
+<area shape="rect" id="node10" href="$HttpRelayController_8h.html" title=" " alt="" coords="609,95,776,136"/>
+<area shape="rect" id="node12" href="$TelnetRelayController_8h.html" title=" " alt="" coords="406,184,584,225"/>
+<area shape="rect" id="node3" href="$ChildProcess_8cpp.html" title=" " alt="" coords="25,184,192,225"/>
+<area shape="rect" id="node7" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="406,273,581,315"/>
+<area shape="rect" id="node8" href="$TrafficManager_8cpp.html" title=" " alt="" coords="44,273,192,315"/>
+<area shape="rect" id="node6" href="$ParentProcess_8cpp.html" title=" " alt="" coords="216,363,382,404"/>
+<area shape="rect" id="node11" href="$HttpRelayController_8cpp.html" title=" " alt="" coords="608,184,790,225"/>
+<area shape="rect" id="node13" href="$TelnetRelayController_8cpp.html" title=" " alt="" coords="606,273,798,315"/>
 </map>

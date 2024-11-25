@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">TrafficEZ
-   &#160;<span id="projectnumber">1.0.1</span>
+   &#160;<span id="projectnumber">1.0.2</span>
    </div>
    <div id="projectbrief">Smart Traffic Solution using Computer Vision for Edge devices</div>
   </td>
@@ -75,14 +75,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae97586f895baddd5a9f7db8dcbbec47e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParentProcess.html#ae97586f895baddd5a9f7db8dcbbec47e">ParentProcess</a> (int numVehicle, int numPedestrian, std::vector&lt; <a class="el" href="structPipe.html">Pipe</a> &gt; &amp;pipesParentToChild, std::vector&lt; <a class="el" href="structPipe.html">Pipe</a> &gt; &amp;pipesChildToParent, std::vector&lt; std::vector&lt; <a class="el" href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a> &gt;&gt; &amp;phases, std::vector&lt; int &gt; &amp;phaseDurations, bool verbose=false, float densityMultiplierGreenPhase=10.0f, float densityMultiplierRedPhase=0.3f, float densityMin=0.0f, float densityMax=50.0f, int minPhaseDurationMs=5000, int minPedestrianDurationMs=25000, std::string relayUrl=&quot;http://192.168.1.4/30000/&quot;)</td></tr>
-<tr class="separator:ae97586f895baddd5a9f7db8dcbbec47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ff26e9edfefeca0eb258a0442a9cd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParentProcess.html#ae4ff26e9edfefeca0eb258a0442a9cd1">ParentProcess</a> (int numVehicle, int numPedestrian, std::vector&lt; <a class="el" href="structPipe.html">Pipe</a> &gt; &amp;pipesParentToChild, std::vector&lt; <a class="el" href="structPipe.html">Pipe</a> &gt; &amp;pipesChildToParent, std::vector&lt; std::vector&lt; <a class="el" href="PhaseMessageType_8h.html#a6c260a5b9e3db8e348195b5865fc5b07">PhaseMessageType</a> &gt;&gt; &amp;phases, std::vector&lt; int &gt; &amp;phaseDurations, bool verbose=false, float densityMultiplierGreenPhase=10.0f, float densityMultiplierRedPhase=0.3f, float densityMin=0.0f, float densityMax=50.0f, int minPhaseDurationMs=5000, int minPedestrianDurationMs=25000, std::string relayUrl=&quot;192.168.1.5&quot;, int subLocationId=1, int junctionId=1, std::string junctionName=&quot;&quot;)</td></tr>
+<tr class="separator:ae4ff26e9edfefeca0eb258a0442a9cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71b517257c76d7481a059aa5315b3345"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParentProcess.html#a71b517257c76d7481a059aa5315b3345">run</a> ()</td></tr>
 <tr class="separator:a71b517257c76d7481a059aa5315b3345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae97586f895baddd5a9f7db8dcbbec47e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae97586f895baddd5a9f7db8dcbbec47e">&#9670;&nbsp;</a></span>ParentProcess()</h2>
+<a id="ae4ff26e9edfefeca0eb258a0442a9cd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ff26e9edfefeca0eb258a0442a9cd1">&#9670;&nbsp;</a></span>ParentProcess()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -169,7 +169,25 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>relayUrl</em> = <code>&quot;http://192.168.1.4/30000/&quot;</code>&#160;</td>
+          <td class="paramname"><em>relayUrl</em> = <code>&quot;192.168.1.5&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>subLocationId</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>junctionId</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>junctionName</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

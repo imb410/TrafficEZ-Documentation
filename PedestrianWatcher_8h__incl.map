@@ -1,9 +1,10 @@
 <map id="src/WatcherSpawner/WatcherFactory/PedestrianWatcher/PedestrianWatcher.h" name="src/WatcherSpawner/WatcherFactory/PedestrianWatcher/PedestrianWatcher.h">
-<area shape="rect" id="node1" title=" " alt="" coords="53,5,265,61"/>
-<area shape="rect" id="node2" href="$Gui_8h.html" title=" " alt="" coords="31,109,87,136"/>
-<area shape="rect" id="node6" href="$Headless_8h.html" title=" " alt="" coords="111,109,206,136"/>
-<area shape="rect" id="node7" href="$Watcher_8h.html" title=" " alt="" coords="230,109,317,136"/>
-<area shape="rect" id="node3" href="$TrafficState_8h.html" title=" " alt="" coords="5,184,112,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="136,184,216,211"/>
-<area shape="rect" id="node5" title=" " alt="" coords="240,184,299,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="107,5,319,61"/>
+<area shape="rect" id="node2" href="$Gui_8h.html" title=" " alt="" coords="85,109,141,136"/>
+<area shape="rect" id="node7" href="$Headless_8h.html" title=" " alt="" coords="166,109,261,136"/>
+<area shape="rect" id="node8" href="$Watcher_8h.html" title=" " alt="" coords="285,109,371,136"/>
+<area shape="rect" id="node3" href="$TrafficState_8h.html" title=" " alt="" coords="237,184,344,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="368,184,448,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,184,64,211"/>
+<area shape="rect" id="node6" title=" " alt="" coords="89,184,213,211"/>
 </map>
