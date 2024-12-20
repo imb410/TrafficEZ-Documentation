@@ -1,6 +1,9 @@
 <map id="Watcher" name="Watcher">
-<area shape="rect" id="node1" title=" " alt="" coords="199,5,274,32"/>
-<area shape="rect" id="node2" href="$classCalibrateWatcher.html" title=" " alt="" coords="5,80,140,107"/>
-<area shape="rect" id="node3" href="$classPedestrianWatcher.html" title=" " alt="" coords="165,80,309,107"/>
-<area shape="rect" id="node4" href="$classVehicleWatcher.html" title=" " alt="" coords="333,80,455,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="199,5,274,31"/>
+<area shape="rect" id="Node000002" href="$classCalibrateWatcher.html" title=" " alt="" coords="5,79,140,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,39,101,81,98,76,197,34"/>
+<area shape="rect" id="Node000003" href="$classPedestrianWatcher.html" title=" " alt="" coords="165,79,309,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,44,239,79,234,79,234,44"/>
+<area shape="rect" id="Node000004" href="$classVehicleWatcher.html" title=" " alt="" coords="333,79,455,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="276,34,369,76,367,81,273,39"/>
 </map>

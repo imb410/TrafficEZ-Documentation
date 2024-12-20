@@ -1,5 +1,7 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepParameters.h" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepParameters.h">
-<area shape="rect" id="node1" title=" " alt="" coords="55,5,279,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,109,183,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="207,109,275,136"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,5,279,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,183,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,62,115,99,111,96,143,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="207,108,275,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,58,224,96,220,99,188,62"/>
 </map>

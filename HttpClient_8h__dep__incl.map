@@ -1,11 +1,21 @@
 <map id="src/Reports/HttpClient.h" name="src/Reports/HttpClient.h">
-<area shape="rect" id="node1" title=" " alt="" coords="211,5,388,32"/>
-<area shape="rect" id="node2" href="$HttpClient_8cpp.html" title=" " alt="" coords="103,80,295,107"/>
-<area shape="rect" id="node3" href="$Reports_8h.html" title=" " alt="" coords="320,80,481,107"/>
-<area shape="rect" id="node4" href="$ParentProcess_8h.html" title=" " alt="" coords="196,155,363,196"/>
-<area shape="rect" id="node7" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="313,333,488,375"/>
-<area shape="rect" id="node9" href="$Reports_8cpp.html" title=" " alt="" coords="438,162,614,189"/>
-<area shape="rect" id="node5" href="$ParentProcess_8cpp.html" title=" " alt="" coords="5,244,172,285"/>
-<area shape="rect" id="node6" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="196,244,363,285"/>
-<area shape="rect" id="node8" href="$TrafficManager_8cpp.html" title=" " alt="" coords="141,333,289,375"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="113,5,290,31"/>
+<area shape="rect" id="Node000002" href="$HttpClient_8cpp.html" title=" " alt="" coords="5,79,197,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,41,119,81,116,76,173,36"/>
+<area shape="rect" id="Node000003" href="$Reports_8h.html" title=" " alt="" coords="222,79,383,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,36,288,76,285,81,227,41"/>
+<area shape="rect" id="Node000004" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="94,328,269,368"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="259,112,232,130,209,153,189,198,180,247,179,292,181,328,176,328,174,293,175,247,184,197,204,151,228,125,257,108"/>
+<area shape="rect" id="Node000005" href="$ParentProcess_8h.html" title=" " alt="" coords="219,152,386,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="305,118,305,152,300,152,300,118"/>
+<area shape="rect" id="Node000009" href="$Reports_8cpp.html" title=" " alt="" coords="411,159,587,185"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="345,107,471,157,469,162,343,112"/>
+<area shape="rect" id="Node000006" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="219,240,386,280"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="297,205,298,240,292,240,291,206"/>
+<area shape="rect" id="Node000008" href="$ParentProcess_8cpp.html" title=" " alt="" coords="410,240,577,280"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="358,195,453,238,450,242,356,200"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="266,290,210,330,207,326,263,286"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="309,227,308,192,313,192,314,226"/>
+<area shape="rect" id="Node000007" href="$TrafficManager_8cpp.html" title=" " alt="" coords="293,328,441,368"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="327,290,355,326,350,329,323,293"/>
 </map>

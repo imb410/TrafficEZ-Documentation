@@ -1,4 +1,5 @@
 <map id="WarpPerspective" name="WarpPerspective">
-<area shape="rect" id="node1" title="Warp strategy of TransformPerspective." alt="" coords="21,80,152,107"/>
-<area shape="rect" id="node2" href="$classTransformPerspective.html" title="Interface for transforming the perspective defined by the four ROI points." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="Node000001" title="Warp strategy of TransformPerspective." alt="" coords="21,79,152,104"/>
+<area shape="rect" id="Node000002" href="$classTransformPerspective.html" title="Interface for transforming the perspective defined by the four ROI points." alt="" coords="5,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,44,89,79,84,79,84,44"/>
 </map>

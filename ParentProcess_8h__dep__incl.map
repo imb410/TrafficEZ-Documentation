@@ -1,7 +1,12 @@
 <map id="src/MultiprocessTraffic/ParentProcess.h" name="src/MultiprocessTraffic/ParentProcess.h">
-<area shape="rect" id="node1" title=" " alt="" coords="196,5,363,47"/>
-<area shape="rect" id="node2" href="$ParentProcess_8cpp.html" title=" " alt="" coords="5,95,172,136"/>
-<area shape="rect" id="node3" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="196,95,363,136"/>
-<area shape="rect" id="node4" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="99,184,273,225"/>
-<area shape="rect" id="node5" href="$TrafficManager_8cpp.html" title=" " alt="" coords="297,184,445,225"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="101,5,268,45"/>
+<area shape="rect" id="Node000002" href="$MultiprocessTraffic_8h.html" title=" " alt="" coords="101,93,268,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,59,180,93,174,93,173,59"/>
+<area shape="rect" id="Node000005" href="$ParentProcess_8cpp.html" title=" " alt="" coords="292,93,459,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="240,49,335,91,332,96,238,53"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="191,80,190,46,195,46,196,80"/>
+<area shape="rect" id="Node000003" href="$MultiprocessTraffic_8cpp.html" title=" " alt="" coords="5,181,180,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="156,145,115,183,111,179,153,141"/>
+<area shape="rect" id="Node000004" href="$TrafficManager_8cpp.html" title=" " alt="" coords="204,181,352,221"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="217,141,259,179,256,183,214,145"/>
 </map>

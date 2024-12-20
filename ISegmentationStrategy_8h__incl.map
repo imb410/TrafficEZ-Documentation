@@ -1,6 +1,9 @@
 <map id="src/SegmentationModule/ISegmentationStrategy.h" name="src/SegmentationModule/ISegmentationStrategy.h">
-<area shape="rect" id="node1" title=" " alt="" coords="135,5,322,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,159,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="183,95,274,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="299,95,361,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="135,5,322,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,159,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,48,117,89,114,84,192,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="183,93,274,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,46,231,79,226,79,226,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="299,93,361,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="255,43,305,82,302,87,252,48"/>
 </map>

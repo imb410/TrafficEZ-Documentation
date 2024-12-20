@@ -1,9 +1,16 @@
 <map id="src/SegmentationModule/VehicleSegmentationStrategy.h" name="src/SegmentationModule/VehicleSegmentationStrategy.h">
-<area shape="rect" id="node1" title=" " alt="" coords="274,5,503,47"/>
-<area shape="rect" id="node2" href="$VehicleSegmentationStrategy_8cpp.html" title=" " alt="" coords="5,102,249,143"/>
-<area shape="rect" id="node3" href="$VehicleGui_8h.html" title=" " alt="" coords="273,95,504,151"/>
-<area shape="rect" id="node6" href="$VehicleHeadless_8h.html" title=" " alt="" coords="528,95,759,151"/>
-<area shape="rect" id="node4" href="$VehicleGui_8cpp.html" title=" " alt="" coords="145,199,376,255"/>
-<area shape="rect" id="node5" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="400,199,631,255"/>
-<area shape="rect" id="node7" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="655,199,885,255"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="274,5,503,45"/>
+<area shape="rect" id="Node000002" href="$VehicleSegmentationStrategy_8cpp.html" title=" " alt="" coords="5,101,249,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="324,52,181,103,179,98,322,47"/>
+<area shape="rect" id="Node000003" href="$VehicleGui_8h.html" title=" " alt="" coords="273,93,504,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="391,59,391,93,386,93,386,59"/>
+<area shape="rect" id="Node000006" href="$VehicleHeadless_8h.html" title=" " alt="" coords="528,93,759,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="454,48,573,91,571,96,452,53"/>
+<area shape="rect" id="Node000004" href="$VehicleGui_8cpp.html" title=" " alt="" coords="145,196,376,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="346,158,296,198,293,194,343,154"/>
+<area shape="rect" id="Node000005" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="400,196,631,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="434,155,484,194,481,198,431,159"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="601,158,551,198,547,194,598,154"/>
+<area shape="rect" id="Node000007" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="655,196,885,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="689,155,739,194,735,198,686,159"/>
 </map>

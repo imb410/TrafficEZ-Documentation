@@ -1,8 +1,13 @@
 <map id="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateHeadless.h" name="src/WatcherSpawner/WatcherFactory/CalibrateWatcher/CalibrateHeadless.h">
-<area shape="rect" id="node1" title=" " alt="" coords="101,5,344,61"/>
-<area shape="rect" id="node2" href="$Headless_8h.html" title=" " alt="" coords="175,109,270,136"/>
-<area shape="rect" id="node3" href="$TrafficState_8h.html" title=" " alt="" coords="5,184,112,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="136,184,216,211"/>
-<area shape="rect" id="node5" title=" " alt="" coords="240,184,299,211"/>
-<area shape="rect" id="node6" title=" " alt="" coords="323,184,447,211"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="101,5,344,60"/>
+<area shape="rect" id="Node000002" href="$Headless_8h.html" title=" " alt="" coords="175,108,270,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,60,225,94,220,94,220,60"/>
+<area shape="rect" id="Node000003" href="$TrafficState_8h.html" title=" " alt="" coords="5,181,112,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,136,99,178,97,173,195,131"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="136,181,216,207"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,135,193,171,189,168,213,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="240,181,299,207"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="233,132,256,168,252,171,228,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="323,181,447,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="250,131,347,173,345,178,248,136"/>
 </map>

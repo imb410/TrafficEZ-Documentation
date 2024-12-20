@@ -1,22 +1,51 @@
 <map id="src/WatcherSpawner/WatcherFactory/PedestrianWatcher/PedestrianGui.cpp" name="src/WatcherSpawner/WatcherFactory/PedestrianWatcher/PedestrianGui.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="854,5,1053,61"/>
-<area shape="rect" id="node2" href="$PedestrianGui_8h.html" title=" " alt="" coords="891,109,1016,136"/>
-<area shape="rect" id="node3" href="$Gui_8h.html" title=" " alt="" coords="231,184,287,211"/>
-<area shape="rect" id="node8" title=" " alt="" coords="1144,333,1299,360"/>
-<area shape="rect" id="node9" href="$PersonSegmentationStrategy_8h.html" title=" " alt="" coords="451,184,674,211"/>
-<area shape="rect" id="node14" href="$SegmentationMask_8h.html" title=" " alt="" coords="700,184,860,211"/>
-<area shape="rect" id="node17" href="$TrimPerspective_8h.html" title=" " alt="" coords="884,184,1023,211"/>
-<area shape="rect" id="node19" href="$VideoStreamer_8h.html" title=" " alt="" coords="1215,184,1345,211"/>
-<area shape="rect" id="node20" href="$WarpPerspective_8h.html" title=" " alt="" coords="1047,184,1190,211"/>
-<area shape="rect" id="node4" href="$TrafficState_8h.html" title=" " alt="" coords="88,259,195,285"/>
-<area shape="rect" id="node5" title=" " alt="" coords="219,259,299,285"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,259,64,285"/>
-<area shape="rect" id="node7" title=" " alt="" coords="323,259,447,285"/>
-<area shape="rect" id="node10" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="471,259,654,285"/>
-<area shape="rect" id="node11" title=" " alt="" coords="770,333,923,360"/>
-<area shape="rect" id="node12" title=" " alt="" coords="517,333,608,360"/>
-<area shape="rect" id="node13" title=" " alt="" coords="647,333,710,360"/>
-<area shape="rect" id="node15" title=" " alt="" coords="919,259,996,285"/>
-<area shape="rect" id="node16" title=" " alt="" coords="729,259,844,285"/>
-<area shape="rect" id="node18" href="$TransformPerspective_8h.html" title=" " alt="" coords="1071,259,1246,285"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="854,5,1053,60"/>
+<area shape="rect" id="Node000002" href="$PedestrianGui_8h.html" title=" " alt="" coords="891,108,1016,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="956,60,956,94,951,94,951,60"/>
+<area shape="rect" id="Node000003" href="$Gui_8h.html" title=" " alt="" coords="231,181,287,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="891,131,300,191,300,186,890,126"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="1144,328,1299,353"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="1016,119,1107,122,1209,130,1258,138,1301,148,1336,162,1359,180,1370,200,1370,221,1361,242,1346,261,1303,296,1258,324,1255,319,1300,292,1342,258,1357,239,1365,220,1365,201,1355,183,1333,167,1299,154,1257,143,1209,136,1106,127,1016,124"/>
+<area shape="rect" id="Node000009" href="$PersonSegmentationStrategy_8h.html" title=" " alt="" coords="451,181,674,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="891,136,640,181,639,176,890,131"/>
+<area shape="rect" id="Node000014" href="$SegmentationMask_8h.html" title=" " alt="" coords="700,181,860,207"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="926,136,822,178,820,174,924,131"/>
+<area shape="rect" id="Node000017" href="$TrimPerspective_8h.html" title=" " alt="" coords="884,181,1023,207"/>
+<area shape="poly" id="edge22_Node000002_Node000017" title=" " alt="" coords="956,134,956,168,951,168,951,134"/>
+<area shape="rect" id="Node000019" href="$VideoStreamer_8h.html" title=" " alt="" coords="1215,181,1345,207"/>
+<area shape="poly" id="edge25_Node000002_Node000019" title=" " alt="" coords="1006,131,1214,176,1213,181,1005,136"/>
+<area shape="rect" id="Node000020" href="$WarpPerspective_8h.html" title=" " alt="" coords="1047,181,1190,207"/>
+<area shape="poly" id="edge28_Node000002_Node000020" title=" " alt="" coords="981,131,1080,173,1078,178,979,136"/>
+<area shape="rect" id="Node000004" href="$TrafficState_8h.html" title=" " alt="" coords="88,255,195,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="241,209,174,250,171,245,238,204"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="219,255,299,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="261,207,261,241,256,241,256,207"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="5,255,64,280"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="231,207,78,255,77,250,229,202"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="323,255,447,280"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="280,204,354,245,351,250,278,209"/>
+<area shape="poly" id="edge13_Node000009_Node000005" title=" " alt="" coords="514,209,313,256,312,251,513,204"/>
+<area shape="rect" id="Node000010" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="471,255,654,280"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="565,207,565,241,560,241,560,207"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="770,328,923,353"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="609,277,788,322,787,327,608,283"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="517,328,608,353"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="565,280,565,314,560,314,560,280"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="647,328,710,353"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="583,278,649,318,647,323,580,282"/>
+<area shape="poly" id="edge19_Node000014_Node000007" title=" " alt="" coords="717,209,462,255,461,250,716,204"/>
+<area shape="poly" id="edge18_Node000014_Node000008" title=" " alt="" coords="837,204,919,224,1009,252,1061,278,1175,321,1173,326,1059,282,1007,257,917,229,836,209"/>
+<area shape="poly" id="edge16_Node000014_Node000010" title=" " alt="" coords="746,209,612,253,610,248,744,204"/>
+<area shape="poly" id="edge15_Node000014_Node000011" title=" " alt="" coords="806,205,835,224,848,238,858,254,863,269,864,285,859,315,854,314,859,285,858,270,854,256,844,241,831,228,803,209"/>
+<area shape="poly" id="edge21_Node000014_Node000013" title=" " alt="" coords="767,209,743,230,719,256,702,286,689,316,684,314,697,284,715,253,739,226,763,205"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="919,255,996,280"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="809,204,917,247,915,252,808,209"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="729,255,844,280"/>
+<area shape="poly" id="edge20_Node000014_Node000016" title=" " alt="" coords="784,207,787,241,782,241,778,207"/>
+<area shape="rect" id="Node000018" href="$TransformPerspective_8h.html" title=" " alt="" coords="1071,255,1246,280"/>
+<area shape="poly" id="edge23_Node000017_Node000018" title=" " alt="" coords="987,204,1113,248,1112,253,985,209"/>
+<area shape="poly" id="edge24_Node000018_Node000008" title=" " alt="" coords="1171,279,1204,316,1200,319,1167,282"/>
+<area shape="poly" id="edge27_Node000019_Node000008" title=" " alt="" coords="1281,208,1274,241,1261,281,1240,318,1236,315,1256,279,1269,240,1276,207"/>
+<area shape="poly" id="edge26_Node000019_Node000018" title=" " alt="" coords="1262,209,1191,250,1189,245,1259,204"/>
+<area shape="poly" id="edge29_Node000020_Node000018" title=" " alt="" coords="1128,206,1148,241,1143,244,1123,208"/>
 </map>

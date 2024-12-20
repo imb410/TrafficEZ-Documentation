@@ -1,18 +1,39 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepFactory.cpp" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepFactory.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="405,5,629,61"/>
-<area shape="rect" id="node2" href="$StepFactory_8h.html" title=" " alt="" coords="994,117,1102,143"/>
-<area shape="rect" id="node11" href="$DilationStep_8h.html" title=" " alt="" coords="5,117,120,143"/>
-<area shape="rect" id="node12" href="$ErosionStep_8h.html" title=" " alt="" coords="145,117,255,143"/>
-<area shape="rect" id="node13" href="$GaussianBlurStep_8h.html" title=" " alt="" coords="280,117,429,143"/>
-<area shape="rect" id="node14" href="$GrayscaleStep_8h.html" title=" " alt="" coords="453,117,581,143"/>
-<area shape="rect" id="node15" href="$MOG2BackgroundSubtractionStep_8h.html" title=" " alt="" coords="605,109,819,151"/>
-<area shape="rect" id="node16" href="$ThresholdStep_8h.html" title=" " alt="" coords="843,117,970,143"/>
-<area shape="rect" id="node3" href="$IPreprocessStep_8h.html" title=" " alt="" coords="448,199,587,225"/>
-<area shape="rect" id="node10" title=" " alt="" coords="982,199,1114,225"/>
-<area shape="rect" id="node4" href="$StepParameters_8h.html" title=" " alt="" coords="262,273,399,300"/>
-<area shape="rect" id="node7" href="$StepType_8h.html" title=" " alt="" coords="424,273,517,300"/>
-<area shape="rect" id="node8" title=" " alt="" coords="542,273,589,300"/>
-<area shape="rect" id="node9" title=" " alt="" coords="613,273,768,300"/>
-<area shape="rect" id="node5" title=" " alt="" coords="169,348,346,375"/>
-<area shape="rect" id="node6" title=" " alt="" coords="370,348,438,375"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="405,5,629,60"/>
+<area shape="rect" id="Node000002" href="$StepFactory_8h.html" title=" " alt="" coords="994,115,1102,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="630,45,797,70,983,105,999,109,998,114,982,111,796,75,629,51"/>
+<area shape="rect" id="Node000011" href="$DilationStep_8h.html" title=" " alt="" coords="5,115,120,141"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="406,56,274,81,133,111,117,114,115,109,131,105,273,75,405,51"/>
+<area shape="rect" id="Node000012" href="$ErosionStep_8h.html" title=" " alt="" coords="145,115,255,141"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="429,63,253,114,251,109,427,57"/>
+<area shape="rect" id="Node000013" href="$GaussianBlurStep_8h.html" title=" " alt="" coords="280,115,429,141"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="473,62,388,111,385,106,470,58"/>
+<area shape="rect" id="Node000014" href="$GrayscaleStep_8h.html" title=" " alt="" coords="453,115,581,141"/>
+<area shape="poly" id="edge16_Node000001_Node000014" title=" " alt="" coords="520,60,520,101,515,101,515,60"/>
+<area shape="rect" id="Node000015" href="$MOG2BackgroundSubtractionStep_8h.html" title=" " alt="" coords="605,108,819,148"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="573,58,661,100,659,104,571,62"/>
+<area shape="rect" id="Node000016" href="$ThresholdStep_8h.html" title=" " alt="" coords="843,115,970,141"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="629,57,831,105,848,109,847,115,830,111,628,63"/>
+<area shape="rect" id="Node000003" href="$IPreprocessStep_8h.html" title=" " alt="" coords="448,196,587,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1013,143,983,151,881,169,777,184,600,203,600,198,776,179,880,164,982,145,1011,138"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="982,196,1114,221"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1051,141,1051,182,1045,182,1045,141"/>
+<area shape="rect" id="Node000004" href="$StepParameters_8h.html" title=" " alt="" coords="262,269,399,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="488,224,375,267,373,262,486,219"/>
+<area shape="rect" id="Node000007" href="$StepType_8h.html" title=" " alt="" coords="424,269,517,295"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="512,223,488,259,484,256,507,220"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="542,269,589,295"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="527,220,552,257,548,260,523,223"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="613,269,768,295"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="546,219,651,262,649,266,544,224"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="169,343,346,368"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="320,297,281,335,277,331,317,293"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="370,343,438,368"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="345,293,384,331,380,335,341,297"/>
+<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="103,138,133,145,293,174,434,195,434,200,292,180,131,151,101,143"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="241,138,269,145,454,190,453,195,267,151,240,143"/>
+<area shape="poly" id="edge15_Node000013_Node000003" title=" " alt="" coords="379,138,483,188,480,193,377,143"/>
+<area shape="poly" id="edge17_Node000014_Node000003" title=" " alt="" coords="520,141,520,182,515,182,515,141"/>
+<area shape="poly" id="edge19_Node000015_Node000003" title=" " alt="" coords="666,150,560,193,558,188,664,146"/>
+<area shape="poly" id="edge21_Node000016_Node000003" title=" " alt="" coords="863,143,831,151,597,196,596,191,830,145,862,138"/>
 </map>

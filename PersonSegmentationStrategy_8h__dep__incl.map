@@ -1,9 +1,16 @@
 <map id="src/SegmentationModule/PersonSegmentationStrategy.h" name="src/SegmentationModule/PersonSegmentationStrategy.h">
-<area shape="rect" id="node1" title=" " alt="" coords="267,5,494,47"/>
-<area shape="rect" id="node2" href="$PersonSegmentationStrategy_8cpp.html" title=" " alt="" coords="5,102,247,143"/>
-<area shape="rect" id="node3" href="$PedestrianHeadless_8h.html" title=" " alt="" coords="271,95,491,151"/>
-<area shape="rect" id="node6" href="$PedestrianGui_8h.html" title=" " alt="" coords="515,95,713,151"/>
-<area shape="rect" id="node4" href="$PedestrianHeadless_8cpp.html" title=" " alt="" coords="125,199,359,255"/>
-<area shape="rect" id="node5" href="$PedestrianWatcher_8cpp.html" title=" " alt="" coords="383,199,610,255"/>
-<area shape="rect" id="node7" href="$PedestrianGui_8cpp.html" title=" " alt="" coords="635,199,833,255"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="257,5,483,45"/>
+<area shape="rect" id="Node000002" href="$PersonSegmentationStrategy_8cpp.html" title=" " alt="" coords="5,101,247,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,53,176,103,174,98,307,48"/>
+<area shape="rect" id="Node000003" href="$PedestrianGui_8h.html" title=" " alt="" coords="271,93,469,148"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="373,59,373,93,367,93,367,59"/>
+<area shape="rect" id="Node000006" href="$PedestrianHeadless_8h.html" title=" " alt="" coords="493,93,713,148"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="431,48,539,91,537,96,429,53"/>
+<area shape="rect" id="Node000004" href="$PedestrianGui_8cpp.html" title=" " alt="" coords="149,196,348,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="329,159,282,198,279,194,326,155"/>
+<area shape="rect" id="Node000005" href="$PedestrianWatcher_8cpp.html" title=" " alt="" coords="373,196,599,251"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="413,155,457,194,454,198,409,159"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="564,159,518,198,515,194,560,155"/>
+<area shape="rect" id="Node000007" href="$PedestrianHeadless_8cpp.html" title=" " alt="" coords="623,196,858,251"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="651,154,706,194,703,198,648,158"/>
 </map>

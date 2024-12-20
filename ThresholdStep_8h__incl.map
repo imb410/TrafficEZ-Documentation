@@ -1,10 +1,17 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/ThresholdStep/ThresholdStep.h" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/ThresholdStep/ThresholdStep.h">
-<area shape="rect" id="node1" title=" " alt="" coords="222,5,486,61"/>
-<area shape="rect" id="node2" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,109,423,136"/>
-<area shape="rect" id="node3" href="$StepParameters_8h.html" title=" " alt="" coords="99,184,236,211"/>
-<area shape="rect" id="node6" href="$StepType_8h.html" title=" " alt="" coords="261,184,354,211"/>
-<area shape="rect" id="node7" title=" " alt="" coords="379,184,425,211"/>
-<area shape="rect" id="node8" title=" " alt="" coords="450,184,605,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,259,183,285"/>
-<area shape="rect" id="node5" title=" " alt="" coords="207,259,275,285"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="222,5,486,60"/>
+<area shape="rect" id="Node000002" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,108,423,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,60,357,94,351,94,351,60"/>
+<area shape="rect" id="Node000003" href="$StepParameters_8h.html" title=" " alt="" coords="99,181,236,207"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="325,136,211,179,210,174,323,131"/>
+<area shape="rect" id="Node000006" href="$StepType_8h.html" title=" " alt="" coords="261,181,354,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="349,135,325,171,320,168,344,132"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="379,181,425,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="364,132,389,169,384,172,360,135"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="450,181,605,207"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="383,131,487,174,485,178,381,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,255,183,280"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,209,118,247,114,243,153,205"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="207,255,275,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="181,205,221,243,217,247,178,209"/>
 </map>
