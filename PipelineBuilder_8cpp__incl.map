@@ -1,23 +1,13 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PipelineBuilder.cpp" name="src/HullRecognitionModule/PreprocessPipeline/PipelineBuilder.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="295,5,573,45"/>
-<area shape="rect" id="Node000002" href="$PipelineBuilder_8h.html" title=" " alt="" coords="369,93,499,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="437,46,437,79,431,79,431,46"/>
-<area shape="rect" id="Node000003" href="$StepFactory_8h.html" title=" " alt="" coords="380,167,488,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="437,119,437,153,431,153,431,119"/>
-<area shape="rect" id="Node000004" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,240,423,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="423,194,379,233,375,229,419,190"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="448,240,580,265"/>
-<area shape="poly" id="edge10_Node000003_Node000011" title=" " alt="" coords="449,190,493,229,489,233,445,194"/>
-<area shape="rect" id="Node000005" href="$StepParameters_8h.html" title=" " alt="" coords="99,313,236,339"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="325,268,211,311,210,306,323,263"/>
-<area shape="rect" id="Node000008" href="$StepType_8h.html" title=" " alt="" coords="261,313,354,339"/>
-<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="349,267,325,303,320,300,344,264"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="379,313,425,339"/>
-<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="364,264,389,301,384,304,360,267"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="450,313,605,339"/>
-<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="383,263,487,306,485,310,381,268"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="5,387,183,412"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="157,341,118,379,114,375,153,337"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="207,387,275,412"/>
-<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="181,337,221,375,217,379,178,341"/>
+<area shape="rect" id="node1" title=" " alt="" coords="295,5,573,47"/>
+<area shape="rect" id="node2" href="$PipelineBuilder_8h.html" title=" " alt="" coords="369,95,499,121"/>
+<area shape="rect" id="node3" href="$StepFactory_8h.html" title=" " alt="" coords="380,169,488,196"/>
+<area shape="rect" id="node4" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,244,423,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="448,244,580,271"/>
+<area shape="rect" id="node5" href="$StepParameters_8h.html" title=" " alt="" coords="99,319,236,345"/>
+<area shape="rect" id="node8" href="$StepType_8h.html" title=" " alt="" coords="261,319,354,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="379,319,425,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="450,319,605,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,393,183,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="207,393,275,420"/>
 </map>

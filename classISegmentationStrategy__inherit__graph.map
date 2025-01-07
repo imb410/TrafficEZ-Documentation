@@ -1,7 +1,5 @@
 <map id="ISegmentationStrategy" name="ISegmentationStrategy">
-<area shape="rect" id="Node000001" title=" " alt="" coords="144,5,316,31"/>
-<area shape="rect" id="Node000002" href="$classPersonSegmentationStrategy.html" title=" " alt="" coords="5,79,217,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,40,132,81,129,76,198,35"/>
-<area shape="rect" id="Node000003" href="$classVehicleSegmentationStrategy.html" title=" " alt="" coords="241,79,456,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="262,35,331,76,328,81,260,40"/>
+<area shape="rect" id="node1" title=" " alt="" coords="144,5,316,32"/>
+<area shape="rect" id="node2" href="$classPersonSegmentationStrategy.html" title=" " alt="" coords="5,80,217,107"/>
+<area shape="rect" id="node3" href="$classVehicleSegmentationStrategy.html" title=" " alt="" coords="241,80,456,107"/>
 </map>

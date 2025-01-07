@@ -1,31 +1,15 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepFactory.h" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/StepFactory.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="513,5,737,60"/>
-<area shape="rect" id="Node000002" href="$PipelineBuilder_8h.html" title=" " alt="" coords="361,115,623,155"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="581,71,519,117,516,113,578,66"/>
-<area shape="rect" id="Node000013" href="$StepFactory_8cpp.html" title=" " alt="" coords="648,108,872,163"/>
-<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="673,66,726,106,723,110,670,70"/>
-<area shape="rect" id="Node000003" href="$PipelineBuilder_8cpp.html" title=" " alt="" coords="5,211,283,251"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,161,215,213,214,208,408,156"/>
-<area shape="rect" id="Node000004" href="$PipelineDirector_8h.html" title=" " alt="" coords="358,211,626,251"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="495,169,495,211,489,211,489,169"/>
-<area shape="rect" id="Node000006" href="$VehicleGui_8h.html" title=" " alt="" coords="205,299,435,353"/>
-<area shape="poly" id="edge14_Node000002_Node000006" title=" " alt="" coords="417,163,380,184,349,212,337,233,329,255,323,299,317,298,324,254,332,230,345,209,377,179,414,158"/>
-<area shape="rect" id="Node000009" href="$VehicleHeadless_8h.html" title=" " alt="" coords="767,299,998,353"/>
-<area shape="poly" id="edge15_Node000002_Node000009" title=" " alt="" coords="608,155,636,160,704,165,793,169,878,181,912,192,935,209,945,232,940,256,928,279,912,300,907,297,923,276,935,254,939,232,931,212,910,197,877,186,793,174,704,170,636,165,607,160"/>
-<area shape="rect" id="Node000011" href="$PipelineTrackbar_8h.html" title=" " alt="" coords="650,211,921,251"/>
-<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="565,157,727,208,725,213,564,162"/>
-<area shape="rect" id="Node000005" href="$PipelineDirector_8cpp.html" title=" " alt="" coords="460,306,743,346"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="526,258,581,304,578,308,523,262"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="447,260,370,301,367,296,444,255"/>
-<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="585,251,774,296,772,301,584,256"/>
-<area shape="rect" id="Node000007" href="$VehicleGui_8cpp.html" title=" " alt="" coords="205,401,435,456"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="323,367,323,401,317,401,317,367"/>
-<area shape="rect" id="Node000008" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="486,401,717,456"/>
-<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="407,355,529,399,527,404,405,360"/>
-<area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="797,360,676,404,674,399,796,355"/>
-<area shape="rect" id="Node000010" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="767,401,998,456"/>
-<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="885,367,885,401,880,401,880,367"/>
-<area shape="poly" id="edge13_Node000011_Node000006" title=" " alt="" coords="677,256,449,301,436,304,435,299,447,296,676,251"/>
-<area shape="rect" id="Node000012" href="$PipelineTrackbar_8cpp.html" title=" " alt="" coords="1022,306,1309,346"/>
-<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="876,251,1089,303,1088,309,875,257"/>
+<area shape="rect" id="node1" title=" " alt="" coords="513,5,737,61"/>
+<area shape="rect" id="node2" href="$PipelineBuilder_8h.html" title=" " alt="" coords="361,117,623,158"/>
+<area shape="rect" id="node13" href="$StepFactory_8cpp.html" title=" " alt="" coords="648,109,872,165"/>
+<area shape="rect" id="node3" href="$PipelineBuilder_8cpp.html" title=" " alt="" coords="5,213,283,255"/>
+<area shape="rect" id="node4" href="$PipelineDirector_8h.html" title=" " alt="" coords="358,213,626,255"/>
+<area shape="rect" id="node6" href="$VehicleGui_8h.html" title=" " alt="" coords="205,303,435,359"/>
+<area shape="rect" id="node9" href="$VehicleHeadless_8h.html" title=" " alt="" coords="767,303,998,359"/>
+<area shape="rect" id="node11" href="$PipelineTrackbar_8h.html" title=" " alt="" coords="650,213,921,255"/>
+<area shape="rect" id="node5" href="$PipelineDirector_8cpp.html" title=" " alt="" coords="460,310,743,351"/>
+<area shape="rect" id="node7" href="$VehicleGui_8cpp.html" title=" " alt="" coords="205,407,435,463"/>
+<area shape="rect" id="node8" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="486,407,717,463"/>
+<area shape="rect" id="node10" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="767,407,998,463"/>
+<area shape="rect" id="node12" href="$PipelineTrackbar_8cpp.html" title=" " alt="" coords="1022,310,1309,351"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="GaussianBlurStep" name="GaussianBlurStep">
-<area shape="rect" id="Node000001" title="Represents a gaussian blur preprocessing step. Implements a gaussian blur operation as part of the im..." alt="" coords="5,79,143,104"/>
-<area shape="rect" id="Node000002" href="$classIPreprocessStep.html" title="Interface for image preprocessing steps." alt="" coords="11,5,137,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,44,77,79,71,79,71,44"/>
+<area shape="rect" id="node1" title="Represents a gaussian blur preprocessing step. Implements a gaussian blur operation as part of the im..." alt="" coords="5,80,143,107"/>
+<area shape="rect" id="node2" href="$classIPreprocessStep.html" title="Interface for image preprocessing steps." alt="" coords="11,5,137,32"/>
 </map>

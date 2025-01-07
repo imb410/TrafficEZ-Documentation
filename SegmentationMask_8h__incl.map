@@ -1,21 +1,11 @@
 <map id="src/SegmentationModule/SegmentationMask.h" name="src/SegmentationModule/SegmentationMask.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="325,5,509,45"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,167,159,192"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="325,39,198,60,144,76,109,95,99,108,92,122,86,153,80,152,87,121,95,105,106,91,142,71,197,55,324,34"/>
-<area shape="rect" id="Node000003" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="120,93,303,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="368,48,255,91,254,86,367,43"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="304,167,367,192"/>
-<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="402,47,368,95,344,155,340,153,364,92,398,44"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="378,93,455,119"/>
-<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="419,46,419,79,414,79,414,46"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="479,93,634,119"/>
-<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="451,43,525,84,523,89,449,48"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="659,93,783,119"/>
-<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="490,43,664,87,662,92,489,48"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="807,93,922,119"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="509,40,794,90,793,95,508,45"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="192,121,117,162,114,157,189,116"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="183,167,274,192"/>
-<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="217,118,225,153,220,154,212,120"/>
-<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="233,116,305,157,302,162,230,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="325,5,509,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,159,196"/>
+<area shape="rect" id="node3" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="120,95,303,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="304,169,367,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="378,95,455,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="479,95,634,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="659,95,783,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="807,95,922,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="183,169,274,196"/>
 </map>

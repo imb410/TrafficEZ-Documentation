@@ -1,19 +1,11 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/ErosionStep/ErosionStep.cpp" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/ErosionStep/ErosionStep.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="231,5,477,60"/>
-<area shape="rect" id="Node000002" href="$ErosionStep_8h.html" title=" " alt="" coords="299,108,409,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,60,357,94,351,94,351,60"/>
-<area shape="rect" id="Node000003" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,181,423,207"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,134,357,168,351,168,351,134"/>
-<area shape="rect" id="Node000004" href="$StepParameters_8h.html" title=" " alt="" coords="99,255,236,280"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="325,209,211,252,210,247,323,204"/>
-<area shape="rect" id="Node000007" href="$StepType_8h.html" title=" " alt="" coords="261,255,354,280"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="349,208,325,245,320,242,344,206"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="379,255,425,280"/>
-<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="364,206,389,242,384,245,360,209"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="450,255,605,280"/>
-<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="383,204,487,247,485,252,381,209"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,328,183,353"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="157,282,118,320,114,316,153,278"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="207,328,275,353"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="181,278,221,316,217,320,178,282"/>
+<area shape="rect" id="node1" title=" " alt="" coords="231,5,477,61"/>
+<area shape="rect" id="node2" href="$ErosionStep_8h.html" title=" " alt="" coords="299,109,409,136"/>
+<area shape="rect" id="node3" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,184,423,211"/>
+<area shape="rect" id="node4" href="$StepParameters_8h.html" title=" " alt="" coords="99,259,236,285"/>
+<area shape="rect" id="node7" href="$StepType_8h.html" title=" " alt="" coords="261,259,354,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="379,259,425,285"/>
+<area shape="rect" id="node9" title=" " alt="" coords="450,259,605,285"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,333,183,360"/>
+<area shape="rect" id="node6" title=" " alt="" coords="207,333,275,360"/>
 </map>

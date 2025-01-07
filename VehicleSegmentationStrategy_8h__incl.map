@@ -1,13 +1,8 @@
 <map id="src/SegmentationModule/VehicleSegmentationStrategy.h" name="src/SegmentationModule/VehicleSegmentationStrategy.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="201,5,430,45"/>
-<area shape="rect" id="Node000002" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="137,93,320,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="296,48,254,86,250,82,293,44"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="345,93,459,119"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="338,44,381,82,377,86,335,48"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,159,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,121,119,163,117,158,204,116"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="183,167,274,192"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="231,119,231,153,226,153,226,119"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="299,167,361,192"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="246,116,304,156,301,161,243,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="201,5,430,47"/>
+<area shape="rect" id="node2" href="$ISegmentationStrategy_8h.html" title=" " alt="" coords="137,95,320,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="345,95,459,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,159,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="183,169,274,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="299,169,361,196"/>
 </map>

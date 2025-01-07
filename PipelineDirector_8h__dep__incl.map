@@ -1,16 +1,9 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PipelineDirector.h" name="src/HullRecognitionModule/PreprocessPipeline/PipelineDirector.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="294,5,562,45"/>
-<area shape="rect" id="Node000002" href="$PipelineDirector_8cpp.html" title=" " alt="" coords="5,101,288,141"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="359,52,204,103,203,98,357,47"/>
-<area shape="rect" id="Node000003" href="$VehicleGui_8h.html" title=" " alt="" coords="313,93,543,148"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="431,59,431,93,425,93,425,59"/>
-<area shape="rect" id="Node000006" href="$VehicleHeadless_8h.html" title=" " alt="" coords="567,93,798,148"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="493,48,612,91,610,96,491,53"/>
-<area shape="rect" id="Node000004" href="$VehicleGui_8cpp.html" title=" " alt="" coords="185,196,415,251"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,158,335,198,332,194,383,154"/>
-<area shape="rect" id="Node000005" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="439,196,670,251"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="474,155,523,194,520,198,471,159"/>
-<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="640,158,590,198,587,194,637,154"/>
-<area shape="rect" id="Node000007" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="694,196,925,251"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="728,155,778,194,775,198,725,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="294,5,562,47"/>
+<area shape="rect" id="node2" href="$PipelineDirector_8cpp.html" title=" " alt="" coords="5,102,288,143"/>
+<area shape="rect" id="node3" href="$VehicleGui_8h.html" title=" " alt="" coords="313,95,543,151"/>
+<area shape="rect" id="node6" href="$VehicleHeadless_8h.html" title=" " alt="" coords="567,95,798,151"/>
+<area shape="rect" id="node4" href="$VehicleGui_8cpp.html" title=" " alt="" coords="185,199,415,255"/>
+<area shape="rect" id="node5" href="$VehicleWatcher_8cpp.html" title=" " alt="" coords="439,199,670,255"/>
+<area shape="rect" id="node7" href="$VehicleHeadless_8cpp.html" title=" " alt="" coords="694,199,925,255"/>
 </map>

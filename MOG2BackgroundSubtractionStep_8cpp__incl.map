@@ -1,19 +1,11 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/MOG2BackgroundSubtractionStep/MOG2BackgroundSubtractionStep.cpp" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/MOG2BackgroundSubtractionStep/MOG2BackgroundSubtractionStep.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="213,5,495,75"/>
-<area shape="rect" id="Node000002" href="$MOG2BackgroundSubtractionStep_8h.html" title=" " alt="" coords="247,123,461,163"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,75,357,108,351,108,351,75"/>
-<area shape="rect" id="Node000003" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,211,423,236"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="357,163,357,197,351,197,351,163"/>
-<area shape="rect" id="Node000004" href="$StepParameters_8h.html" title=" " alt="" coords="99,284,236,309"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="325,239,211,281,210,277,323,234"/>
-<area shape="rect" id="Node000007" href="$StepType_8h.html" title=" " alt="" coords="261,284,354,309"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="349,238,325,274,320,271,344,235"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="379,284,425,309"/>
-<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="364,235,389,271,384,274,360,238"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="450,284,605,309"/>
-<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="383,234,487,276,485,281,381,238"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,357,183,383"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="157,312,118,350,114,346,153,308"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="207,357,275,383"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="181,308,221,346,217,350,178,312"/>
+<area shape="rect" id="node1" title=" " alt="" coords="213,5,495,76"/>
+<area shape="rect" id="node2" href="$MOG2BackgroundSubtractionStep_8h.html" title=" " alt="" coords="247,124,461,165"/>
+<area shape="rect" id="node3" href="$IPreprocessStep_8h.html" title=" " alt="" coords="285,213,423,240"/>
+<area shape="rect" id="node4" href="$StepParameters_8h.html" title=" " alt="" coords="99,288,236,315"/>
+<area shape="rect" id="node7" href="$StepType_8h.html" title=" " alt="" coords="261,288,354,315"/>
+<area shape="rect" id="node8" title=" " alt="" coords="379,288,425,315"/>
+<area shape="rect" id="node9" title=" " alt="" coords="450,288,605,315"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,363,183,389"/>
+<area shape="rect" id="node6" title=" " alt="" coords="207,363,275,389"/>
 </map>

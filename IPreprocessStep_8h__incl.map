@@ -1,15 +1,9 @@
 <map id="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/IPreprocessStep.h" name="src/HullRecognitionModule/PreprocessPipeline/PreprocessSteps/IPreprocessStep.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="242,5,466,60"/>
-<area shape="rect" id="Node000002" href="$StepParameters_8h.html" title=" " alt="" coords="99,108,236,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,62,206,105,203,100,296,58"/>
-<area shape="rect" id="Node000005" href="$StepType_8h.html" title=" " alt="" coords="261,108,354,133"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="342,61,323,97,318,95,337,59"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="379,108,425,133"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="371,59,391,95,386,97,366,61"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="450,108,605,133"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="408,58,493,99,491,104,406,62"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,181,183,207"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="157,136,118,174,114,170,153,132"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="207,181,275,207"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="181,132,221,170,217,174,178,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="242,5,466,61"/>
+<area shape="rect" id="node2" href="$StepParameters_8h.html" title=" " alt="" coords="99,109,236,136"/>
+<area shape="rect" id="node5" href="$StepType_8h.html" title=" " alt="" coords="261,109,354,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="379,109,425,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="450,109,605,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,184,183,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,184,275,211"/>
 </map>
